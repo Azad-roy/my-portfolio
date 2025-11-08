@@ -1,0 +1,47 @@
+{
+    "prompts": [
+        {
+            "id": 1,
+            "title": "AI Code Assistant Prompt",
+            "description": "A prompt designed to help AI assistants generate clean, efficient code with best practices",
+            "category": "Programming",
+            "prompt": "You are an expert software engineer. Please analyze this code and provide optimized solutions with explanations. Focus on: 1. Performance improvements 2. Code readability 3. Best practices 4. Error handling 5. Security considerations",
+            "exampleOutput": "Here's an optimized version of your function with proper error handling and documentation...",
+            "tags": [
+                "coding",
+                "optimization",
+                "best-practices"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Creative Writing Assistant",
+            "description": "Generate engaging creative content with consistent tone and style",
+            "category": "Writing",
+            "prompt": "You are a professional creative writer. Create compelling content that: 1. Engages the reader from the first sentence 2. Maintains consistent tone and voice 3. Uses vivid imagery and sensory details 4. Builds emotional connection 5. Provides clear narrative structure",
+            "exampleOutput": "The morning mist clung to the ancient oak trees like a delicate silver veil, whispering secrets of the forest that only the brave would dare to uncover...",
+            "tags": [
+                "creative-writing",
+                "storytelling",
+                "content-creation"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Business Strategy Analyst",
+            "description": "Analyze business problems and provide strategic recommendations",
+            "category": "Business",
+            "prompt": "Act as a senior business strategist. Analyze the following business scenario and provide: 1. SWOT analysis 2. Market positioning strategy 3. Competitive advantages 4. Risk assessment 5. Implementation roadmap 6. KPIs for success measurement",
+            "exampleOutput": "Based on the current market conditions and your business objectives, here's a comprehensive strategy that leverages your strengths while mitigating potential risks...",
+            "tags": [
+                "business",
+                "strategy",
+                "analysis"
+            ]
+        }
+    ],
+    "profile": {
+        "promptbaseUrl": "https://promptbase.com/profile/roypromptmarket",
+        "description": "Check out my premium AI prompts designed to supercharge your productivity and creativity"
+    }
+}

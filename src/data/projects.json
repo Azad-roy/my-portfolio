@@ -1,0 +1,114 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "E-Commerce Platform",
+            "description": "A full-stack e-commerce solution with cart, checkout, and user authentication",
+            "technologies": [
+                "React",
+                "SpringBoot",
+                "MongoDB",
+                "TailwindCSS"
+            ],
+            "github": "https://github.com/username/ecommerce-platform",
+            "demo": "https://pingu-grocery.netlify.app/",
+            "thumbnail": "/assets/project-thumbnails/grocery-Store.png",
+            "tags": [
+                "Frontend",
+                "E-commerce",
+                "React"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Online Examination System",
+            "description": "A lightweight online exam platform where students can attempt timed tests, view questions one by one, and submit answers instantly. Built with a clean UI and simple logic to make the exam process smooth and distraction-free.",
+            "technologies": [
+                "SpringBoot",
+                "MongoDB",
+                "React",
+                "TailwindCSS"
+            ],
+            "github": "https://github.com/username/blog-platform",
+            "demo": "https://online-exam-system-coding-age.netlify.app/",
+            "thumbnail": "/assets/project-thumbnails/online-exam-system.png",
+            "tags": [
+                "Full Stack",
+                "Exam",
+                "SpringBoot"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Cricket Team Score Manager",
+            "description": "A simple web app to add, edit, and delete cricket teams along with their scores. Built with full CRUD functionality and a clean interface for quick score management.",
+            "technologies": [
+                "SpringBoot",
+                "MongoDB",
+                "React",
+                "TailwindCSS"
+            ],
+            "github": "https://github.com/username/task-manager",
+            "demo": "https://cricket-score-manager.netlify.app/",
+            "thumbnail": "/assets/project-thumbnails/team-score-manager.png",
+            "tags": [
+                "Full Stack",
+                "Real-time",
+                "CRUD"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Music Player",
+            "description": "A clean and responsive web music player with basic playback controls.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JS"
+            ],
+            "github": "https://github.com/username/portfolio",
+            "demo": "https://azad-music-player.netlify.app/",
+            "thumbnail": "/assets/project-thumbnails/music-player.png",
+            "tags": [
+                "Music Player",
+                "Responsive",
+                "Frontend"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Chat Application",
+            "description": "Real-time chat application with rooms and file sharing",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JS"
+            ],
+            "github": "https://github.com/username/chat-app",
+            "demo": "https://personal-image-server.netlify.app/",
+            "thumbnail": "/assets/project-thumbnails/image-server.png",
+            "tags": [
+                "Frontend",
+                "Image Server",
+                "Responsive"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Coaching Institute Website",
+            "description": "A fully responsive coaching institute website featuring course listings, faculty info, student highlights, and a structured layout for clear communication. Built with modern HTML/CSS/JS for a smooth user experience.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JS"
+            ],
+            "github": "https://github.com/username/weather-dashboard",
+            "demo": "https://coaching-institute-coding-age.netlify.app/",
+            "thumbnail": "/assets/project-thumbnails/coaching-institue.png",
+            "tags": [
+                "Frontend",
+                "Dashboard"
+            ]
+        }
+    ]
+}

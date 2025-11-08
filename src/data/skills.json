@@ -1,0 +1,94 @@
+{
+    "categories": [
+        {
+            "name": "Languages",
+            "skills": [
+                {
+                    "name": "JavaScript",
+                    "icon": "SiJavascript",
+                    "level": 90
+                },
+                {
+                    "name": "Python",
+                    "icon": "SiPython",
+                    "level": 80
+                },
+                {
+                    "name": "HTML5",
+                    "icon": "SiHtml5",
+                    "level": 95
+                },
+                {
+                    "name": "CSS3",
+                    "icon": "SiCss3",
+                    "level": 90
+                }
+            ]
+        },
+        {
+            "name": "Frameworks",
+            "skills": [
+                {
+                    "name": "React",
+                    "icon": "SiReact",
+                    "level": 90
+                },
+                {
+                    "name": "Spring Boot",
+                    "icon": "SiSpringboot",
+                    "level": 80
+                }
+            ]
+        },
+        {
+            "name": "Databases",
+            "skills": [
+                {
+                    "name": "MongoDB",
+                    "icon": "SiMongodb",
+                    "level": 80
+                },
+                {
+                    "name": "MySQL",
+                    "icon": "SiMysql",
+                    "level": 70
+                }
+            ]
+        },
+        {
+            "name": "Tools",
+            "skills": [
+                {
+                    "name": "Git",
+                    "icon": "SiGit",
+                    "level": 85
+                },
+                {
+                    "name": "Figma",
+                    "icon": "SiFigma",
+                    "level": 80
+                },
+                {
+                    "name": "VS Code",
+                    "icon": "SiVisualstudiocode",
+                    "level": 95
+                }
+            ]
+        },
+        {
+            "name": "DevOps / Cloud",
+            "skills": [
+                {
+                    "name": "AWS",
+                    "icon": "SiAmazonaws",
+                    "level": 70
+                },
+                {
+                    "name": "Netlify",
+                    "icon": "SiNetlify",
+                    "level": 80
+                }
+            ]
+        }
+    ]
+}
