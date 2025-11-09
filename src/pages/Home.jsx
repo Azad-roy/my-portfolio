@@ -1,5 +1,5 @@
-// src/pages/Home.jsx
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
 import Skills from '../components/Skills';
 import ProjectCard from '../components/ProjectCard';
@@ -32,12 +32,12 @@ const Home = () => {
                     </div>
 
                     <div className="text-center mt-12">
-                        <a
-                            href="/projects"
+                        <Link
+                            to="/projects"
                             className="inline-flex items-center px-8 py-4 border-2 border-blue-500 text-blue-600 dark:text-blue-400 hover:bg-blue-500 hover:text-white font-semibold rounded-xl transition-all duration-200 transform hover:scale-105"
                         >
                             View All Projects
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </section>
