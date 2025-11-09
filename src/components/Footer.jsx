@@ -87,7 +87,7 @@ const Footer = () => {
                 {/* Bottom */}
                 <div className="border-t border-slate-200 dark:border-slate-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
                     <p className="text-slate-500 dark:text-slate-400 text-sm">
-                        © {currentYear} John Doe. All rights reserved.
+                        © {currentYear} Azad Kumar. All rights reserved.
                     </p>
                 </div>
             </div>
