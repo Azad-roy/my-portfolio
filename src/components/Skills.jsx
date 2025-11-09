@@ -1,13 +1,23 @@
 // src/components/Skills.jsx
-import React from 'react';
+
 import { motion } from 'framer-motion';
-import * as Icons from 'react-icons/si';
+import * as SiIcons from 'react-icons/si';
+import * as FaIcons from 'react-icons/fa';
 import skillsData from '../data/skills.json';
 
 const Skills = () => {
     const getIcon = (iconName) => {
-        const IconComponent = Icons[iconName];
-        return IconComponent ? <IconComponent className="w-6 h-6" /> : null;
+        // Check if it's a Simple Icon (starts with Si)
+        if (iconName.startsWith('Si')) {
+            const IconComponent = SiIcons[iconName];
+            return IconComponent ? <IconComponent className="w-6 h-6" /> : null;
+        }
+        // Check if it's a Font Awesome Icon (starts with Fa)
+        else if (iconName.startsWith('Fa')) {
+            const IconComponent = FaIcons[iconName];
+            return IconComponent ? <IconComponent className="w-6 h-6" /> : null;
+        }
+        return null;
     };
 
     return (

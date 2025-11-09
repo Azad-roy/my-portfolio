@@ -4,6 +4,11 @@
             "name": "Languages",
             "skills": [
                 {
+                    "name": "Java",
+                    "icon": "FaJava",
+                    "level": 85
+                },
+                {
                     "name": "JavaScript",
                     "icon": "SiJavascript",
                     "level": 90
