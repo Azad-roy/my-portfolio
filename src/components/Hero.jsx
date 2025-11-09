@@ -1,8 +1,7 @@
-// src/components/Hero.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { HiDownload, HiMail } from 'react-icons/hi';
+import { HiMail, HiSparkles } from 'react-icons/hi';
 
 const Hero = () => {
     return (
@@ -53,10 +52,13 @@ const Hero = () => {
                             Get In Touch
                         </Link>
 
-                        {/* <button className="inline-flex items-center px-8 py-4 border-2 border-slate-300 dark:border-slate-600 text-slate-700 dark:text-slate-300 font-semibold rounded-xl transition-all duration-200 transform hover:scale-105 hover:border-blue-500 hover:text-blue-600 dark:hover:text-blue-400">
-                            <HiDownload className="mr-2" />
-                            Download Resume
-                        </button> */}
+                        <Link
+                            to="/prompts"
+                            className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-semibold rounded-xl transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl"
+                        >
+                            <HiSparkles className="mr-2" />
+                            Explore AI Prompts
+                        </Link>
                     </motion.div>
                 </motion.div>
             </div>
