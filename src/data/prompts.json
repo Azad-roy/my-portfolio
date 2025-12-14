@@ -2,46 +2,145 @@
     "prompts": [
         {
             "id": 1,
-            "title": "AI Code Assistant Prompt",
-            "description": "A prompt designed to help AI assistants generate clean, efficient code with best practices",
-            "category": "Programming",
-            "prompt": "You are an expert software engineer. Please analyze this code and provide optimized solutions with explanations. Focus on: 1. Performance improvements 2. Code readability 3. Best practices 4. Error handling 5. Security considerations",
-            "exampleOutput": "Here's an optimized version of your function with proper error handling and documentation...",
-            "tags": [
-                "coding",
-                "optimization",
-                "best-practices"
-            ]
+            "title": "Minimalist Interior Design Prompt",
+            "description": "Create stunning, photorealistic interior designs with consistent lighting",
+            "price": "$9.99",
+            "category": "Interior Design",
+            "results": [
+                {
+                    "title": "Modern Living Room",
+                    "description": "Clean lines, natural lighting"
+                },
+                {
+                    "title": "Minimalist Kitchen",
+                    "description": "White marble, morning light"
+                }
+            ],
+            "benefits": [
+                "Save 5+ hours of prompt engineering",
+                "Consistent architectural style",
+                "Professional lighting setup"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/minimalist-interior"
         },
         {
             "id": 2,
-            "title": "Creative Writing Assistant",
-            "description": "Generate engaging creative content with consistent tone and style",
-            "category": "Writing",
-            "prompt": "You are a professional creative writer. Create compelling content that: 1. Engages the reader from the first sentence 2. Maintains consistent tone and voice 3. Uses vivid imagery and sensory details 4. Builds emotional connection 5. Provides clear narrative structure",
-            "exampleOutput": "The morning mist clung to the ancient oak trees like a delicate silver veil, whispering secrets of the forest that only the brave would dare to uncover...",
-            "tags": [
-                "creative-writing",
-                "storytelling",
-                "content-creation"
-            ]
+            "title": "Character Design Template",
+            "description": "Generate consistent character designs with detailed features",
+            "price": "$12.99",
+            "category": "Character Design",
+            "results": [
+                {
+                    "title": "Fantasy Warrior",
+                    "description": "Detailed armor, dynamic pose"
+                },
+                {
+                    "title": "Sci-Fi Explorer",
+                    "description": "Futuristic suit, alien environment"
+                }
+            ],
+            "benefits": [
+                "Maintain character consistency",
+                "Professional anatomy details",
+                "Dynamic posing options"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/character-design"
         },
         {
             "id": 3,
-            "title": "Business Strategy Analyst",
-            "description": "Analyze business problems and provide strategic recommendations",
-            "category": "Business",
-            "prompt": "Act as a senior business strategist. Analyze the following business scenario and provide: 1. SWOT analysis 2. Market positioning strategy 3. Competitive advantages 4. Risk assessment 5. Implementation roadmap 6. KPIs for success measurement",
-            "exampleOutput": "Based on the current market conditions and your business objectives, here's a comprehensive strategy that leverages your strengths while mitigating potential risks...",
-            "tags": [
-                "business",
-                "strategy",
-                "analysis"
-            ]
+            "title": "Product Photography Prompt",
+            "description": "Professional product shots with studio lighting",
+            "price": "$7.99",
+            "category": "Product Photography",
+            "results": [
+                {
+                    "title": "Tech Gadget Shot",
+                    "description": "Studio lighting, reflective surfaces"
+                },
+                {
+                    "title": "Cosmetics Product",
+                    "description": "Soft lighting, marble surface"
+                }
+            ],
+            "benefits": [
+                "No photography equipment needed",
+                "Perfect lighting every time",
+                "Consistent brand styling"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/product-photography"
+        },
+        {
+            "id": 4,
+            "title": "Landscape Photography Prompt",
+            "description": "Breathtaking landscape scenes with perfect composition",
+            "price": "$8.99",
+            "category": "Landscape",
+            "results": [
+                {
+                    "title": "Mountain Sunrise",
+                    "description": "Epic vista, golden hour lighting"
+                },
+                {
+                    "title": "Forest Pathway",
+                    "description": "Mystical fog, morning light"
+                }
+            ],
+            "benefits": [
+                "Professional composition rules",
+                "Perfect lighting conditions",
+                "Easy location changes"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/landscape-photography"
+        },
+        {
+            "id": 5,
+            "title": "Architecture Visualization",
+            "description": "Modern architectural renders with realistic materials",
+            "price": "$14.99",
+            "category": "Architecture",
+            "results": [
+                {
+                    "title": "Modern Villa",
+                    "description": "Clean lines, glass facade, pool"
+                },
+                {
+                    "title": "Skyscraper Design",
+                    "description": "Urban setting, twilight lighting"
+                }
+            ],
+            "benefits": [
+                "Architectural accuracy",
+                "Realistic material textures",
+                "Multiple lighting scenarios"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/architecture-viz"
+        },
+        {
+            "id": 6,
+            "title": "Fashion Photography Prompt",
+            "description": "High-fashion editorial shots with dramatic lighting",
+            "price": "$11.99",
+            "category": "Fashion",
+            "results": [
+                {
+                    "title": "Runway Fashion",
+                    "description": "Dramatic lighting, studio backdrop"
+                },
+                {
+                    "title": "Street Style",
+                    "description": "Urban environment, natural light"
+                }
+            ],
+            "benefits": [
+                "Professional fashion styling",
+                "Multiple outfit variations",
+                "Consistent model poses"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/fashion-photography"
         }
     ],
     "profile": {
-        "promptbaseUrl": "https://promptbase.com/profile/roypromptmarket",
-        "description": "Check out my premium AI prompts designed to supercharge your productivity and creativity"
+        "promptbaseUrl": "https://promptbase.com/profile/yourusername",
+        "description": "Browse my complete collection of premium AI prompt templates"
     }
 }
