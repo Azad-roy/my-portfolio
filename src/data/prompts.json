@@ -9,11 +9,13 @@
             "results": [
                 {
                     "title": "Modern Living Room",
-                    "description": "Clean lines, natural lighting"
+                    "description": "Clean lines, natural lighting",
+                    "image": "https://i.pinimg.com/736x/16/a1/99/16a1991706bed583e709deeb9443f366.jpg"
                 },
                 {
                     "title": "Minimalist Kitchen",
-                    "description": "White marble, morning light"
+                    "description": "White marble, morning light",
+                    "image": "https://i.pinimg.com/736x/22/39/ce/2239ce70a730b7517a5395d0fa235a5a.jpg"
                 }
             ],
             "benefits": [
@@ -25,26 +27,28 @@
         },
         {
             "id": 2,
-            "title": "Character Design Template",
+            "title": "Cartoon Tales Line Art Coloring Books",
             "description": "Generate consistent character designs with detailed features",
-            "price": "$12.99",
+            "price": "$2.99",
             "category": "Character Design",
             "results": [
                 {
                     "title": "Fantasy Warrior",
-                    "description": "Detailed armor, dynamic pose"
+                    "description": "Detailed armor, dynamic pose",
+                    "image": "https://i.pinimg.com/736x/16/a1/99/16a1991706bed583e709deeb9443f366.jpg"
                 },
                 {
                     "title": "Sci-Fi Explorer",
-                    "description": "Futuristic suit, alien environment"
+                    "description": "Futuristic suit, alien environment",
+                    "image": "https://i.pinimg.com/736x/22/39/ce/2239ce70a730b7517a5395d0fa235a5a.jpg"
                 }
             ],
             "benefits": [
-                "Maintain character consistency",
-                "Professional anatomy details",
-                "Dynamic posing options"
+                "Consistent character style",
+                "Clean black-and-white line art",
+                "Flexible poses and expressions"
             ],
-            "promptBaseUrl": "https://promptbase.com/prompt/character-design"
+            "promptBaseUrl": "https://promptbase.com/prompt/cartoon-tales-line-art-coloring-books"
         },
         {
             "id": 3,
@@ -55,11 +59,13 @@
             "results": [
                 {
                     "title": "Tech Gadget Shot",
-                    "description": "Studio lighting, reflective surfaces"
+                    "description": "Studio lighting, reflective surfaces",
+                    "image": "/portfolio/public/assets/prompts/interior-2.png"
                 },
                 {
                     "title": "Cosmetics Product",
-                    "description": "Soft lighting, marble surface"
+                    "description": "Soft lighting, marble surface",
+                    "image": "/portfolio/public/assets/prompts/interior-2.png"
                 }
             ],
             "benefits": [
@@ -78,11 +84,13 @@
             "results": [
                 {
                     "title": "Mountain Sunrise",
-                    "description": "Epic vista, golden hour lighting"
+                    "description": "Epic vista, golden hour lighting",
+                    "image": "/portfolio/public/assets/prompts/interior-2.png"
                 },
                 {
                     "title": "Forest Pathway",
-                    "description": "Mystical fog, morning light"
+                    "description": "Mystical fog, morning light",
+                    "image": "/portfolio/public/assets/prompts/interior-2.png"
                 }
             ],
             "benefits": [
@@ -101,11 +109,13 @@
             "results": [
                 {
                     "title": "Modern Villa",
-                    "description": "Clean lines, glass facade, pool"
+                    "description": "Clean lines, glass facade, pool",
+                    "image": "/portfolio/public/assets/prompts/interior-2.png"
                 },
                 {
                     "title": "Skyscraper Design",
-                    "description": "Urban setting, twilight lighting"
+                    "description": "Urban setting, twilight lighting",
+                    "image": "/portfolio/public/assets/prompts/interior-2.png"
                 }
             ],
             "benefits": [
@@ -124,11 +134,13 @@
             "results": [
                 {
                     "title": "Runway Fashion",
-                    "description": "Dramatic lighting, studio backdrop"
+                    "description": "Dramatic lighting, studio backdrop",
+                    "image": "/portfolio/public/assets/prompts/interior-2.png"
                 },
                 {
                     "title": "Street Style",
-                    "description": "Urban environment, natural light"
+                    "description": "Urban environment, natural light",
+                    "image": "/portfolio/public/assets/prompts/interior-2.png"
                 }
             ],
             "benefits": [
@@ -140,7 +152,7 @@
         }
     ],
     "profile": {
-        "promptbaseUrl": "https://promptbase.com/profile/yourusername",
+        "promptbaseUrl": "https://promptbase.com/profile/roypromptmarket",
         "description": "Browse my complete collection of premium AI prompt templates"
     }
 }

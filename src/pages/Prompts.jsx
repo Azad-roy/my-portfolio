@@ -122,21 +122,32 @@ const PromptsPage = () => {
                                 </h3>
                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
                                     {prompt.results.map((result, idx) => (
-                                        <div key={idx} className="text-center">
-                                            <div className="aspect-[4/3] rounded-lg bg-gradient-to-br from-blue-400/20 to-purple-400/20 dark:from-blue-500/10 dark:to-purple-500/10 flex items-center justify-center mb-3 overflow-hidden">
-                                                <div className="text-center p-4">
-                                                    <div className="text-3xl mb-2">🎨</div>
-                                                    <p className="text-xs text-slate-600 dark:text-slate-400">
-                                                        AI-generated
-                                                    </p>
-                                                </div>
+                                        <div className="aspect-[4/3] rounded-lg overflow-hidden bg-gradient-to-br from-blue-400/20 to-purple-400/20 dark:from-blue-500/10 dark:to-purple-500/10 mb-3 relative group">
+                                            {/* Actual Image */}
+                                            {result.image && (
+                                                <img
+                                                    src={result.image}
+                                                    alt={result.title}
+                                                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                                                />
+                                            )}
+
+                                            {/* Image Overlay */}
+                                            <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                                                <span className="text-white text-sm font-medium">{result.title}</span>
                                             </div>
-                                            <h4 className="font-medium text-slate-900 dark:text-white mb-1">
-                                                {result.title}
-                                            </h4>
-                                            <p className="text-sm text-slate-600 dark:text-slate-400">
-                                                {result.description}
-                                            </p>
+
+                                            {/* Fallback if no image */}
+                                            {!result.image && (
+                                                <div className="w-full h-full flex items-center justify-center">
+                                                    <div className="text-center p-4">
+                                                        <div className="text-3xl mb-2">🎨</div>
+                                                        <p className="text-xs text-slate-600 dark:text-slate-400">
+                                                            AI-generated preview
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            )}
                                         </div>
                                     ))}
                                 </div>
@@ -187,8 +198,8 @@ const PromptsPage = () => {
                             onClick={prevPage}
                             disabled={currentPage === 1}
                             className={`flex items-center px-4 py-2 rounded-lg transition-all duration-200 ${currentPage === 1
-                                    ? 'text-slate-400 dark:text-slate-600 cursor-not-allowed'
-                                    : 'text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100 dark:hover:bg-slate-800'
+                                ? 'text-slate-400 dark:text-slate-600 cursor-not-allowed'
+                                : 'text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100 dark:hover:bg-slate-800'
                                 }`}
                         >
                             <HiChevronLeft className="w-5 h-5" />
@@ -216,8 +227,8 @@ const PromptsPage = () => {
                                         key={pageNumber}
                                         onClick={() => goToPage(pageNumber)}
                                         className={`w-10 h-10 flex items-center justify-center rounded-lg transition-all duration-200 ${currentPage === pageNumber
-                                                ? 'bg-blue-600 text-white'
-                                                : 'text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'
+                                            ? 'bg-blue-600 text-white'
+                                            : 'text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'
                                             }`}
                                     >
                                         {pageNumber}
@@ -243,8 +254,8 @@ const PromptsPage = () => {
                             onClick={nextPage}
                             disabled={currentPage === totalPages}
                             className={`flex items-center px-4 py-2 rounded-lg transition-all duration-200 ${currentPage === totalPages
-                                    ? 'text-slate-400 dark:text-slate-600 cursor-not-allowed'
-                                    : 'text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100 dark:hover:bg-slate-800'
+                                ? 'text-slate-400 dark:text-slate-600 cursor-not-allowed'
+                                : 'text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100 dark:hover:bg-slate-800'
                                 }`}
                         >
                             <span className="mr-1">Next</span>
