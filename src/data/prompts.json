@@ -21,24 +21,25 @@
             "benefits": [
                 "Save 5+ hours of prompt engineering",
                 "Consistent architectural style",
-                "Professional lighting setup"
+                "Professional lighting setup",
+                "These images are sample results generated using the prompt. The prompt allows unlimited variations"
             ],
             "promptBaseUrl": "https://promptbase.com/prompt/minimalist-interior"
         },
         {
             "id": 2,
             "title": "Cartoon Tales Line Art Coloring Books",
-            "description": "Generate consistent character designs with detailed features",
+            "description": "Create clean black-and-white line art for kids’ coloring books.",
             "price": "$2.99",
-            "category": "Character Design",
+            "category": "Coloring Book",
             "results": [
                 {
-                    "title": "Fantasy Warrior",
+                    "title": "Superhero Boy Coloring Page",
                     "description": "Detailed armor, dynamic pose",
                     "image": "https://i.pinimg.com/736x/16/a1/99/16a1991706bed583e709deeb9443f366.jpg"
                 },
                 {
-                    "title": "Sci-Fi Explorer",
+                    "title": "Fairy Coloring Page",
                     "description": "Futuristic suit, alien environment",
                     "image": "https://i.pinimg.com/736x/22/39/ce/2239ce70a730b7517a5395d0fa235a5a.jpg"
                 }

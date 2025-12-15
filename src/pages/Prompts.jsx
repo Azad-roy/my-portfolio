@@ -152,6 +152,11 @@ const PromptsPage = () => {
                                     ))}
                                 </div>
 
+                                <p className="mb-6 text-sm text-slate-500 dark:text-slate-400">
+                                    These images are sample results generated using the prompt. The prompt allows unlimited variations.
+                                </p>
+
+
                                 {/* Quick Benefits */}
                                 <div className="mb-6">
                                     <h4 className="text-sm font-semibold text-slate-900 dark:text-white mb-3">
@@ -202,6 +207,7 @@ const PromptsPage = () => {
                                 : 'text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100 dark:hover:bg-slate-800'
                                 }`}
                         >
+
                             <HiChevronLeft className="w-5 h-5" />
                             <span className="ml-1">Previous</span>
                         </button>
