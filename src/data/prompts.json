@@ -2,27 +2,25 @@
     "prompts": [
         {
             "id": 1,
-            "title": "Minimalist Interior Design Prompt",
-            "description": "Create stunning, photorealistic interior designs with consistent lighting",
-            "price": "$9.99",
-            "category": "Interior Design",
+            "title": "Cute Dudu & Bubu Couple AI Prompt",
+            "description": "Generate cute Dudu & Bubu couple illustrations in a kawaii style.",
+            "price": "$2.99",
+            "category": "Character Design",
             "results": [
                 {
-                    "title": "Modern Living Room",
-                    "description": "Clean lines, natural lighting",
-                    "image": "https://i.pinimg.com/736x/16/a1/99/16a1991706bed583e709deeb9443f366.jpg"
+                    "title": "Sweet Gift Moment",
+                    "image": "https://i.pinimg.com/736x/b3/ea/37/b3ea374f969a0f0f0be7279ea88ee6e7.jpg"
                 },
                 {
-                    "title": "Minimalist Kitchen",
+                    "title": "Cooking Together",
                     "description": "White marble, morning light",
-                    "image": "https://i.pinimg.com/736x/22/39/ce/2239ce70a730b7517a5395d0fa235a5a.jpg"
+                    "image": "https://i.pinimg.com/736x/d5/34/f7/d534f790e5f80c4ea6101dcaa32594cb.jpg"
                 }
             ],
             "benefits": [
-                "Save 5+ hours of prompt engineering",
-                "Consistent architectural style",
-                "Professional lighting setup",
-                "These images are sample results generated using the prompt. The prompt allows unlimited variations"
+                "Consistent Dudu & Bubu–style character design",
+                "Cute kawaii expressions and pastel aesthetics  ",
+                "Unlimited poses, scenes, and variations"
             ],
             "promptBaseUrl": "https://promptbase.com/prompt/minimalist-interior"
         },
@@ -150,6 +148,31 @@
                 "Consistent model poses"
             ],
             "promptBaseUrl": "https://promptbase.com/prompt/fashion-photography"
+        },
+                {
+            "id":7,
+            "title": "Minimalist Interior Design Prompt",
+            "description": "Create stunning, photorealistic interior designs with consistent lighting",
+            "price": "$9.99",
+            "category": "Interior Design",
+            "results": [
+                {
+                    "title": "Modern Living Room",
+                    "description": "Clean lines, natural lighting",
+                    "image": ""
+                },
+                {
+                    "title": "Minimalist Kitchen",
+                    "description": "White marble, morning light",
+                    "image": ""
+                }
+            ],
+            "benefits": [
+                "Save 5+ hours of prompt engineering",
+                "Consistent architectural style",
+                "Professional lighting setup"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/minimalist-interior"
         }
     ],
     "profile": {
