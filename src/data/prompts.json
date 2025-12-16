@@ -2,6 +2,29 @@
     "prompts": [
         {
             "id": 1,
+            "title": "Minimalist Interior Design Prompt",
+            "description": "Create stunning, photorealistic interior designs with consistent lighting",
+            "price": "$3.99",
+            "category": "Interior Design",
+            "results": [
+                {
+                    "title": "Minimalist Bedroom Interior",
+                    "image": "https://i.pinimg.com/736x/3c/90/88/3c9088e71e4c7ea7023122fbd96f0ec9.jpg"
+                },
+                {
+                    "title": "Luxury Modern Bathroom Interior",
+                    "image": "https://i.pinimg.com/736x/b0/9a/b2/b09ab2e91f45fc3430489bcb97b35733.jpg"
+                }
+            ],
+            "benefits": [
+                "Save 5+ hours of prompt engineering",
+                "Consistent architectural style",
+                "Professional lighting setup"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/minimalist-interior-design"
+        },
+        {
+            "id": 2,
             "title": "Cute Dudu & Bubu Couple AI Prompt",
             "description": "Generate cute Dudu & Bubu couple illustrations in a kawaii style.",
             "price": "$2.99",
@@ -25,7 +48,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/cute-dudu-bubu-couple-images"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "Cartoon Tales Line Art Coloring Books",
             "description": "Create clean black-and-white line art for kids’ coloring books.",
             "price": "$2.99",
@@ -48,7 +71,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/cartoon-tales-line-art-coloring-books"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Product Photography Prompt",
             "description": "Professional product shots with studio lighting",
             "price": "$7.99",
@@ -73,7 +96,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/product-photography"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Landscape Photography Prompt",
             "description": "Breathtaking landscape scenes with perfect composition",
             "price": "$8.99",
@@ -98,7 +121,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/landscape-photography"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Architecture Visualization",
             "description": "Modern architectural renders with realistic materials",
             "price": "$14.99",
@@ -123,7 +146,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/architecture-viz"
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "Fashion Photography Prompt",
             "description": "High-fashion editorial shots with dramatic lighting",
             "price": "$11.99",
@@ -146,31 +169,6 @@
                 "Consistent model poses"
             ],
             "promptBaseUrl": "https://promptbase.com/prompt/fashion-photography"
-        },
-                {
-            "id":7,
-            "title": "Minimalist Interior Design Prompt",
-            "description": "Create stunning, photorealistic interior designs with consistent lighting",
-            "price": "$9.99",
-            "category": "Interior Design",
-            "results": [
-                {
-                    "title": "Modern Living Room",
-                    "description": "Clean lines, natural lighting",
-                    "image": ""
-                },
-                {
-                    "title": "Minimalist Kitchen",
-                    "description": "White marble, morning light",
-                    "image": ""
-                }
-            ],
-            "benefits": [
-                "Save 5+ hours of prompt engineering",
-                "Consistent architectural style",
-                "Professional lighting setup"
-            ],
-            "promptBaseUrl": "https://promptbase.com/prompt/minimalist-interior"
         }
     ],
     "profile": {
