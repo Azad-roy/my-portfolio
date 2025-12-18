@@ -2,6 +2,29 @@
     "prompts": [
         {
             "id": 1,
+            "title": "Product Photography Prompt",
+            "description": "Professional product shots with studio lighting",
+            "price": "$4.99",
+            "category": "Product Photography",
+            "results": [
+                {
+                    "title": "Food Product",
+                    "image": "https://i.pinimg.com/736x/a0/69/57/a06957ff1fadb7eb2bfa7be7033a7161.jpg"
+                },
+                {
+                    "title": "Cosmetics Product",
+                    "image": "https://i.pinimg.com/736x/20/28/d2/2028d268ea20cf0bb944cc68df7e9baa.jpg"
+                }
+            ],
+            "benefits": [
+                "No photography equipment needed",
+                "Perfect lighting every time",
+                "Consistent brand styling"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/premium-product-photography-5"
+        },
+        {
+            "id": 2,
             "title": "Character Design Template",
             "description": "Generate consistent character designs with detailed features",
             "price": "$2.99",
@@ -24,7 +47,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/cyberpunk-character-designs"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "Minimalist Interior Design Prompt",
             "description": "Create stunning, photorealistic interior designs with consistent lighting",
             "price": "$3.99",
@@ -47,7 +70,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/minimalist-interior-design"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Cute Dudu & Bubu Couple AI Prompt",
             "description": "Generate cute Dudu & Bubu couple illustrations in a kawaii style.",
             "price": "$2.99",
@@ -71,7 +94,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/cute-dudu-bubu-couple-images"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Cartoon Tales Line Art Coloring Books",
             "description": "Create clean black-and-white line art for kids’ coloring books.",
             "price": "$2.99",
@@ -92,31 +115,6 @@
                 "Flexible poses and expressions"
             ],
             "promptBaseUrl": "https://promptbase.com/prompt/cartoon-tales-line-art-coloring-books"
-        },
-        {
-            "id": 5,
-            "title": "Product Photography Prompt",
-            "description": "Professional product shots with studio lighting",
-            "price": "$7.99",
-            "category": "Product Photography",
-            "results": [
-                {
-                    "title": "Tech Gadget Shot",
-                    "description": "Studio lighting, reflective surfaces",
-                    "image": "/portfolio/public/assets/prompts/interior-2.png"
-                },
-                {
-                    "title": "Cosmetics Product",
-                    "description": "Soft lighting, marble surface",
-                    "image": "/portfolio/public/assets/prompts/interior-2.png"
-                }
-            ],
-            "benefits": [
-                "No photography equipment needed",
-                "Perfect lighting every time",
-                "Consistent brand styling"
-            ],
-            "promptBaseUrl": "https://promptbase.com/prompt/product-photography"
         },
         {
             "id": 6,
