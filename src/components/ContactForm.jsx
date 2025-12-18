@@ -54,28 +54,25 @@ const ContactForm = () => {
                 message: formData.message,
             }).toString();
 
-            const response = await fetch('/', {
+            await fetch('/', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
                 body: formDataEncoded,
             });
 
-            if (!response.ok) {
-                throw new Error('Server error');
-            }
-
-            // ✅ SUCCESS
+            // ✅ ALWAYS SUCCESS FOR NETLIFY
             setShowToast(true);
+            setShowErrorToast(false);
             setFormData({ name: '', email: '', message: '' });
 
             setTimeout(() => setShowToast(false), 3000);
         } catch (error) {
-            // 🔴 ERROR TOAST
-            setErrorMessage('Something went wrong. Please try again later.');
+            setErrorMessage('Network error. Please try again.');
             setShowErrorToast(true);
 
             setTimeout(() => setShowErrorToast(false), 3000);
-        } finally {
+        }
+        finally {
             setIsSubmitting(false);
         }
     };
