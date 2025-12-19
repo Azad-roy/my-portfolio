@@ -125,13 +125,11 @@
             "results": [
                 {
                     "title": "Mountain Sunrise",
-                    "description": "Epic vista, golden hour lighting",
-                    "image": "/portfolio/public/assets/prompts/interior-2.png"
+                    "image": "https://i.pinimg.com/736x/72/33/3f/72333f94eb421fc50b04d52ca092258a.jpg"
                 },
                 {
                     "title": "Forest Pathway",
-                    "description": "Mystical fog, morning light",
-                    "image": "/portfolio/public/assets/prompts/interior-2.png"
+                    "image": "https://i.pinimg.com/736x/1e/8c/77/1e8c77add546e33702135dde8509e49b.jpg"
                 }
             ],
             "benefits": [
@@ -139,7 +137,7 @@
                 "Perfect lighting conditions",
                 "Easy location changes"
             ],
-            "promptBaseUrl": "https://promptbase.com/prompt/landscape-photography"
+            "promptBaseUrl": "https://promptbase.com/prompt/cinematic-landscape-photography-4"
         },
         {
             "id": 7,
