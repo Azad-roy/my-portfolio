@@ -1,7 +1,30 @@
 {
     "prompts": [
-        {
+                {
             "id": 1,
+            "title": "Landscape Photography Prompt",
+            "description": "Breathtaking landscape scenes with perfect composition",
+            "price": "$8.99",
+            "category": "Landscape",
+            "results": [
+                {
+                    "title": "Mountain Sunrise",
+                    "image": "https://i.pinimg.com/736x/72/33/3f/72333f94eb421fc50b04d52ca092258a.jpg"
+                },
+                {
+                    "title": "Forest Pathway",
+                    "image": "https://i.pinimg.com/736x/1e/8c/77/1e8c77add546e33702135dde8509e49b.jpg"
+                }
+            ],
+            "benefits": [
+                "Professional composition rules",
+                "Perfect lighting conditions",
+                "Easy location changes"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/cinematic-landscape-photography-4"
+        },
+        {
+            "id": 2,
             "title": "Product Photography Prompt",
             "description": "Professional product shots with studio lighting",
             "price": "$4.99",
@@ -24,7 +47,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/premium-product-photography-5"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "Character Design Template",
             "description": "Generate consistent character designs with detailed features",
             "price": "$2.99",
@@ -47,7 +70,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/cyberpunk-character-designs"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Minimalist Interior Design Prompt",
             "description": "Create stunning, photorealistic interior designs with consistent lighting",
             "price": "$3.99",
@@ -70,7 +93,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/minimalist-interior-design"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Cute Dudu & Bubu Couple AI Prompt",
             "description": "Generate cute Dudu & Bubu couple illustrations in a kawaii style.",
             "price": "$2.99",
@@ -94,7 +117,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/cute-dudu-bubu-couple-images"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Cartoon Tales Line Art Coloring Books",
             "description": "Create clean black-and-white line art for kids’ coloring books.",
             "price": "$2.99",
@@ -115,29 +138,6 @@
                 "Flexible poses and expressions"
             ],
             "promptBaseUrl": "https://promptbase.com/prompt/cartoon-tales-line-art-coloring-books"
-        },
-        {
-            "id": 6,
-            "title": "Landscape Photography Prompt",
-            "description": "Breathtaking landscape scenes with perfect composition",
-            "price": "$8.99",
-            "category": "Landscape",
-            "results": [
-                {
-                    "title": "Mountain Sunrise",
-                    "image": "https://i.pinimg.com/736x/72/33/3f/72333f94eb421fc50b04d52ca092258a.jpg"
-                },
-                {
-                    "title": "Forest Pathway",
-                    "image": "https://i.pinimg.com/736x/1e/8c/77/1e8c77add546e33702135dde8509e49b.jpg"
-                }
-            ],
-            "benefits": [
-                "Professional composition rules",
-                "Perfect lighting conditions",
-                "Easy location changes"
-            ],
-            "promptBaseUrl": "https://promptbase.com/prompt/cinematic-landscape-photography-4"
         },
         {
             "id": 7,
