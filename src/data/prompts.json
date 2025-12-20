@@ -2,6 +2,29 @@
     "prompts": [
                 {
             "id": 1,
+            "title": "Architecture Visualization",
+            "description": "Modern architectural renders with realistic materials",
+            "price": "$2.99",
+            "category": "Architecture",
+            "results": [
+                {
+                    "title": "Modern Villa",
+                    "image": "https://i.pinimg.com/736x/a3/16/2a/a3162a31785fb4fbd9c42a9e84f477dd.jpg"
+                },
+                {
+                    "title": "Skyscraper Design",
+                    "image": "https://i.pinimg.com/736x/ec/10/77/ec1077c4eedd477410ba7b8559dcee7c.jpg"
+                }
+            ],
+            "benefits": [
+                "Architectural accuracy",
+                "Realistic material textures",
+                "Multiple lighting scenarios"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/modern-architecture-visualizations-2"
+        },
+                {
+            "id": 2,
             "title": "Landscape Photography Prompt",
             "description": "Breathtaking landscape scenes with perfect composition",
             "price": "$2.99",
@@ -24,7 +47,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/cinematic-landscape-photography-4"
         },
         {
-            "id": 2,
+            "id":3,
             "title": "Product Photography Prompt",
             "description": "Professional product shots with studio lighting",
             "price": "$4.99",
@@ -47,7 +70,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/premium-product-photography-5"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Character Design Template",
             "description": "Generate consistent character designs with detailed features",
             "price": "$2.99",
@@ -70,7 +93,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/cyberpunk-character-designs"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Minimalist Interior Design Prompt",
             "description": "Create stunning, photorealistic interior designs with consistent lighting",
             "price": "$3.99",
@@ -93,7 +116,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/minimalist-interior-design"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Cute Dudu & Bubu Couple AI Prompt",
             "description": "Generate cute Dudu & Bubu couple illustrations in a kawaii style.",
             "price": "$2.99",
@@ -117,7 +140,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/cute-dudu-bubu-couple-images"
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "Cartoon Tales Line Art Coloring Books",
             "description": "Create clean black-and-white line art for kids’ coloring books.",
             "price": "$2.99",
@@ -138,29 +161,6 @@
                 "Flexible poses and expressions"
             ],
             "promptBaseUrl": "https://promptbase.com/prompt/cartoon-tales-line-art-coloring-books"
-        },
-        {
-            "id": 7,
-            "title": "Architecture Visualization",
-            "description": "Modern architectural renders with realistic materials",
-            "price": "$2.99",
-            "category": "Architecture",
-            "results": [
-                {
-                    "title": "Modern Villa",
-                    "image": "https://i.pinimg.com/736x/a3/16/2a/a3162a31785fb4fbd9c42a9e84f477dd.jpg"
-                },
-                {
-                    "title": "Skyscraper Design",
-                    "image": "https://i.pinimg.com/736x/ec/10/77/ec1077c4eedd477410ba7b8559dcee7c.jpg"
-                }
-            ],
-            "benefits": [
-                "Architectural accuracy",
-                "Realistic material textures",
-                "Multiple lighting scenarios"
-            ],
-            "promptBaseUrl": "https://promptbase.com/prompt/modern-architecture-visualizations-2"
         },
         {
             "id": 8,
