@@ -143,18 +143,16 @@
             "id": 7,
             "title": "Architecture Visualization",
             "description": "Modern architectural renders with realistic materials",
-            "price": "$14.99",
+            "price": "$2.99",
             "category": "Architecture",
             "results": [
                 {
                     "title": "Modern Villa",
-                    "description": "Clean lines, glass facade, pool",
-                    "image": "/portfolio/public/assets/prompts/interior-2.png"
+                    "image": "https://i.pinimg.com/736x/a3/16/2a/a3162a31785fb4fbd9c42a9e84f477dd.jpg"
                 },
                 {
                     "title": "Skyscraper Design",
-                    "description": "Urban setting, twilight lighting",
-                    "image": "/portfolio/public/assets/prompts/interior-2.png"
+                    "image": "https://i.pinimg.com/736x/ec/10/77/ec1077c4eedd477410ba7b8559dcee7c.jpg"
                 }
             ],
             "benefits": [
@@ -162,7 +160,7 @@
                 "Realistic material textures",
                 "Multiple lighting scenarios"
             ],
-            "promptBaseUrl": "https://promptbase.com/prompt/architecture-viz"
+            "promptBaseUrl": "https://promptbase.com/prompt/modern-architecture-visualizations-2"
         },
         {
             "id": 8,
