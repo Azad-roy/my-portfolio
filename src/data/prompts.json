@@ -1,7 +1,30 @@
 {
     "prompts": [
-                {
+        {
             "id": 1,
+            "title": "Fashion Photography Prompt",
+            "description": "High-fashion editorial shots with dramatic lighting",
+            "price": "$3.99",
+            "category": "Fashion",
+            "results": [
+                {
+                    "title": "Runway Fashion",
+                    "image": "https://i.pinimg.com/736x/b3/fc/a0/b3fca0bfb5b7c5c743f8b71defe29e97.jpg"
+                },
+                {
+                    "title": "Street Style",
+                    "image": "https://i.pinimg.com/736x/2e/66/25/2e6625d2ffb93da1a9eb9d93bfeca732.jpg"
+                }
+            ],
+            "benefits": [
+                "Professional fashion styling",
+                "Multiple outfit variations",
+                "Consistent model poses"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/fashion-photography-19"
+        },
+        {
+            "id": 2,
             "title": "Architecture Visualization",
             "description": "Modern architectural renders with realistic materials",
             "price": "$2.99",
@@ -23,8 +46,8 @@
             ],
             "promptBaseUrl": "https://promptbase.com/prompt/modern-architecture-visualizations-2"
         },
-                {
-            "id": 2,
+        {
+            "id": 3,
             "title": "Landscape Photography Prompt",
             "description": "Breathtaking landscape scenes with perfect composition",
             "price": "$2.99",
@@ -47,7 +70,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/cinematic-landscape-photography-4"
         },
         {
-            "id":3,
+            "id": 4,
             "title": "Product Photography Prompt",
             "description": "Professional product shots with studio lighting",
             "price": "$4.99",
@@ -70,7 +93,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/premium-product-photography-5"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Character Design Template",
             "description": "Generate consistent character designs with detailed features",
             "price": "$2.99",
@@ -93,7 +116,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/cyberpunk-character-designs"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Minimalist Interior Design Prompt",
             "description": "Create stunning, photorealistic interior designs with consistent lighting",
             "price": "$3.99",
@@ -116,7 +139,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/minimalist-interior-design"
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "Cute Dudu & Bubu Couple AI Prompt",
             "description": "Generate cute Dudu & Bubu couple illustrations in a kawaii style.",
             "price": "$2.99",
@@ -140,7 +163,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/cute-dudu-bubu-couple-images"
         },
         {
-            "id": 7,
+            "id": 8,
             "title": "Cartoon Tales Line Art Coloring Books",
             "description": "Create clean black-and-white line art for kids’ coloring books.",
             "price": "$2.99",
@@ -161,31 +184,6 @@
                 "Flexible poses and expressions"
             ],
             "promptBaseUrl": "https://promptbase.com/prompt/cartoon-tales-line-art-coloring-books"
-        },
-        {
-            "id": 8,
-            "title": "Fashion Photography Prompt",
-            "description": "High-fashion editorial shots with dramatic lighting",
-            "price": "$11.99",
-            "category": "Fashion",
-            "results": [
-                {
-                    "title": "Runway Fashion",
-                    "description": "Dramatic lighting, studio backdrop",
-                    "image": "/portfolio/public/assets/prompts/interior-2.png"
-                },
-                {
-                    "title": "Street Style",
-                    "description": "Urban environment, natural light",
-                    "image": "/portfolio/public/assets/prompts/interior-2.png"
-                }
-            ],
-            "benefits": [
-                "Professional fashion styling",
-                "Multiple outfit variations",
-                "Consistent model poses"
-            ],
-            "promptBaseUrl": "https://promptbase.com/prompt/fashion-photography"
         }
     ],
     "profile": {
