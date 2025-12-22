@@ -2,6 +2,29 @@
     "prompts": [
         {
             "id": 1,
+            "title": "Revenue-Focused SaaS Visual Systems",
+            "description": "Conversion-optimized SaaS UI visuals for startups, founders, and investors",
+            "price": "$4.99",
+            "category": "SaaS Design",
+            "results": [
+                {
+                    "title": "SaaS Dashboard UI",
+                    "image": "https://i.pinimg.com/736x/2a/76/04/2a7604b167cec0f492370af744f6060b.jpg"
+                },
+                {
+                    "title": "Analytics Interface",
+                    "image": "https://i.pinimg.com/736x/88/ec/f7/88ecf7b3e668a9736aca7098cc5e41ca.jpg"
+                }
+            ],
+            "benefits": [
+                "Conversion-focused SaaS layouts",
+                "Clean, enterprise-grade SaaS UI",
+                "Style-locked, consistent visuals"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/revenuefocused-saas-visual-systems"
+        },
+        {
+            "id": 2,
             "title": "Fashion Photography Prompt",
             "description": "High-fashion editorial shots with dramatic lighting",
             "price": "$3.99",
@@ -24,7 +47,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/fashion-photography-19"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "Architecture Visualization",
             "description": "Modern architectural renders with realistic materials",
             "price": "$2.99",
@@ -47,7 +70,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/modern-architecture-visualizations-2"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Landscape Photography Prompt",
             "description": "Breathtaking landscape scenes with perfect composition",
             "price": "$2.99",
@@ -70,7 +93,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/cinematic-landscape-photography-4"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Product Photography Prompt",
             "description": "Professional product shots with studio lighting",
             "price": "$4.99",
@@ -93,7 +116,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/premium-product-photography-5"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Character Design Template",
             "description": "Generate consistent character designs with detailed features",
             "price": "$2.99",
@@ -116,7 +139,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/cyberpunk-character-designs"
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "Minimalist Interior Design Prompt",
             "description": "Create stunning, photorealistic interior designs with consistent lighting",
             "price": "$3.99",
@@ -139,7 +162,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/minimalist-interior-design"
         },
         {
-            "id": 7,
+            "id": 8,
             "title": "Cute Dudu & Bubu Couple AI Prompt",
             "description": "Generate cute Dudu & Bubu couple illustrations in a kawaii style.",
             "price": "$2.99",
@@ -163,7 +186,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/cute-dudu-bubu-couple-images"
         },
         {
-            "id": 8,
+            "id": 9,
             "title": "Cartoon Tales Line Art Coloring Books",
             "description": "Create clean black-and-white line art for kids’ coloring books.",
             "price": "$2.99",
