@@ -2,6 +2,29 @@
     "prompts": [
         {
             "id": 1,
+            "title": "Minimal Carousel Visual Systems",
+            "description": "Clean, modern carousel visuals for creators, businesses, and brands",
+            "price": "$4.99",
+            "category": "Visual Design",
+            "results": [
+                {
+                    "title": "Minimal Instagram Growth Carousel",
+                    "image": "https://i.pinimg.com/736x/68/dc/8e/68dc8efe7e9534966e2bf114fe08b2c1.jpg"
+                },
+                {
+                    "title": "Modern Business Tips Carousel",
+                    "image": "https://i.pinimg.com/736x/63/a4/89/63a489cea07848af224bfc34b920aada.jpg"
+                }
+            ],
+            "benefits": [
+                "Mobile-first carousel layouts",
+                "Clean editorial-style visuals",
+                "Consistent, style-locked design system"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/portrait-instagram-carousel-packs"
+        },
+        {
+            "id": 2,
             "title": "Developer README Visual Systems",
             "description": "Professional visuals that make GitHub projects look credible and trusted",
             "price": "$6.99",
@@ -22,29 +45,6 @@
                 "Consistent, style-locked design system"
             ],
             "promptBaseUrl": "https://promptbase.com/prompt/github-readme-visuals-for-jobs-users-2"
-        },
-        {
-            "id": 2,
-            "title": "Revenue-Focused SaaS Visual Systems",
-            "description": "Conversion-optimized SaaS UI visuals for startups, founders, and investors",
-            "price": "$4.99",
-            "category": "SaaS Design",
-            "results": [
-                {
-                    "title": "Cybersecurity Dashboard",
-                    "image": "https://i.pinimg.com/736x/2a/76/04/2a7604b167cec0f492370af744f6060b.jpg"
-                },
-                {
-                    "title": "CRM Revenue Dashboard",
-                    "image": "https://i.pinimg.com/736x/88/ec/f7/88ecf7b3e668a9736aca7098cc5e41ca.jpg"
-                }
-            ],
-            "benefits": [
-                "Conversion-focused SaaS layouts",
-                "Clean, enterprise-grade SaaS UI",
-                "Style-locked, consistent visuals"
-            ],
-            "promptBaseUrl": "https://promptbase.com/prompt/revenuefocused-saas-visual-systems"
         },
         {
             "id": 3,
