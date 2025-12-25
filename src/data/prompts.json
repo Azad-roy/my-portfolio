@@ -2,6 +2,29 @@
     "prompts": [
         {
             "id": 1,
+            "title": "Cute Horror Chibi Illustration Set",
+            "description": "Storybook-style cute horror characters inspired by iconic horror films",
+            "price": "$3.99",
+            "category": "Illustration Design",
+            "results": [
+                {
+                    "title": "Cute Horror Doll Couple",
+                    "image": "https://i.pinimg.com/736x/ef/6f/e9/ef6fe9f6519e46d8a8cbf111178ea5db.jpg"
+                },
+                {
+                    "title": "Cute Horror Halloween Duo",
+                    "image": "https://i.pinimg.com/736x/5c/2f/62/5c2f6246a1242df795fbe98ab7154680.jpg"
+                }
+            ],
+            "benefits": [
+                "Premium cute-horror storybook style",
+                "Consistent chibi characters with soft details",
+                "Perfect for posters, merch, and digital art"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/soft-horror-kawaii-chibis-2"
+        },
+        {
+            "id": 2,
             "title": "Minimal Carousel Visual Systems",
             "description": "Clean, modern carousel visuals for creators, businesses, and brands",
             "price": "$5.99",
@@ -22,29 +45,6 @@
                 "Consistent, style-locked design system"
             ],
             "promptBaseUrl": "https://promptbase.com/prompt/portrait-instagram-carousel-packs"
-        },
-        {
-            "id": 2,
-            "title": "Developer README Visual Systems",
-            "description": "Professional visuals that make GitHub projects look credible and trusted",
-            "price": "$6.99",
-            "category": "Developer Design",
-            "results": [
-                {
-                    "title": "System Architecture README",
-                    "image": "https://i.pinimg.com/736x/c3/e3/24/c3e3249cc982e601cd3fc6e85970771b.jpg"
-                },
-                {
-                    "title": "Frontend UI Library README",
-                    "image": "https://i.pinimg.com/736x/e3/eb/e7/e3ebe7c613154d65bc1967a694b76bb9.jpg"
-                }
-            ],
-            "benefits": [
-                "README-ready, professional layouts",
-                "Clean developer-focused UI visuals",
-                "Consistent, style-locked design system"
-            ],
-            "promptBaseUrl": "https://promptbase.com/prompt/github-readme-visuals-for-jobs-users-2"
         },
         {
             "id": 3,
