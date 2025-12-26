@@ -2,6 +2,29 @@
     "prompts": [
         {
             "id": 1,
+            "title": "Futuristic Neon Food Visuals",
+            "description": "Cinematic neon street food branding visuals",
+            "price": "$3.99",
+            "category": "Food Branding",
+            "results": [
+                {
+                    "title": "Neon Burger Branding",
+                    "image": "https://i.pinimg.com/736x/14/bf/db/14bfdb1e8c3f2268c18bd47d933afb5b.jpg"
+                },
+                {
+                    "title": "Neon Dessert Branding",
+                    "image": "https://i.pinimg.com/474x/e3/65/26/e36526ae597b1b6ff1f2faf3e4c89942.jpg"
+                }
+            ],
+            "benefits": [
+                "Mobile-first portrait visuals",
+                "High-impact neon lighting",
+                "Consistent futuristic style"
+            ],
+            "promptBaseUrl": "https://promptbase.com"
+        },
+        {
+            "id": 2,
             "title": "Cute Horror Chibi Illustration Set",
             "description": "Storybook-style cute horror characters inspired by iconic horror films",
             "price": "$3.99",
@@ -22,29 +45,6 @@
                 "Perfect for posters, merch, and digital art"
             ],
             "promptBaseUrl": "https://promptbase.com/prompt/soft-horror-kawaii-chibis-2"
-        },
-        {
-            "id": 2,
-            "title": "Minimal Carousel Visual Systems",
-            "description": "Clean, modern carousel visuals for creators, businesses, and brands",
-            "price": "$5.99",
-            "category": "Visual Design",
-            "results": [
-                {
-                    "title": "Minimal Instagram Growth Carousel",
-                    "image": "https://i.pinimg.com/736x/68/dc/8e/68dc8efe7e9534966e2bf114fe08b2c1.jpg"
-                },
-                {
-                    "title": "Modern Business Tips Carousel",
-                    "image": "https://i.pinimg.com/736x/63/a4/89/63a489cea07848af224bfc34b920aada.jpg"
-                }
-            ],
-            "benefits": [
-                "Mobile-first carousel layouts",
-                "Clean editorial-style visuals",
-                "Consistent, style-locked design system"
-            ],
-            "promptBaseUrl": "https://promptbase.com/prompt/portrait-instagram-carousel-packs"
         },
         {
             "id": 3,
