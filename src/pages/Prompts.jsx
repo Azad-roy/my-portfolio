@@ -15,10 +15,12 @@ const trackPromptClick = (label) => {
     if (typeof window !== "undefined" && window.gtag) {
         window.gtag("event", "promptbase_click", {
             event_category: "outbound",
-            event_label: label || "unknown_prompt"
+            event_label: label || "unknown_prompt",
+            debug_mode: true
         });
     }
 };
+
 
 
 
