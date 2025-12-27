@@ -11,6 +11,18 @@ import {
 } from 'react-icons/hi';
 import promptsData from '../data/prompts.json';
 
+const trackPromptClick = (label) => {
+    if (window.gtag) {
+        window.gtag("event", "promptbase_click", {
+            event_category: "outbound",
+            event_label: label || "unknown_prompt",
+            transport_type: "beacon"
+        });
+    }
+};
+
+
+
 const PromptsPage = () => {
     const { prompts, profile } = promptsData;
     const [currentPage, setCurrentPage] = useState(1);
@@ -179,6 +191,9 @@ const PromptsPage = () => {
                                     href={prompt.promptBaseUrl}
                                     target="_blank"
                                     rel="noopener noreferrer"
+                                    onClick={() =>
+                                        trackPromptClick(`${prompt.title} | page:${currentPage}`)
+                                    }
                                     whileHover={{ scale: 1.02 }}
                                     whileTap={{ scale: 0.98 }}
                                     className="block w-full text-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
@@ -322,6 +337,7 @@ const PromptsPage = () => {
                             href={profile.promptbaseUrl}
                             target="_blank"
                             rel="noopener noreferrer"
+                            onClick={() => trackPromptClick("profile_page")}
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.98 }}
                             className="inline-flex items-center px-8 py-4 bg-white text-blue-600 hover:bg-blue-50 font-semibold rounded-xl transition-all duration-200 shadow-lg hover:shadow-xl"
