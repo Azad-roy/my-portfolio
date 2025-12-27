@@ -12,14 +12,14 @@ import {
 import promptsData from '../data/prompts.json';
 
 const trackPromptClick = (label) => {
-    if (window.gtag) {
-        window.gtag("event", "promptbase_click", {
-            event_category: "outbound",
-            event_label: label || "unknown_prompt",
-            transport_type: "beacon"
-        });
-    }
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        event: "promptbase_click",
+        event_category: "outbound",
+        event_label: label || "unknown_prompt"
+    });
 };
+
 
 
 
