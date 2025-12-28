@@ -2,6 +2,29 @@
     "prompts": [
         {
             "id": 1,
+            "title": "Cinematic Voxel Product Prompt",
+            "description": "Premium voxel-style product renders with cinematic lighting",
+            "price": "$3.99",
+            "category": "Voxel Art",
+            "results": [
+                {
+                    "title": "Voxel Coca-Cola Bottle",
+                    "image": "https://i.pinimg.com/474x/29/dd/e1/29dde1bb28802582cebbb3b2e82bf47d.jpg"
+                },
+                {
+                    "title": "Voxel Nike Air Force 1",
+                    "image": "https://i.pinimg.com/736x/75/d5/93/75d593f3100add3adfdf4af7963cb57e.jpg"
+                }
+            ],
+            "benefits": [
+                "Locked voxel art style",
+                "Unique cinematic scenes per product",
+                "Easy brand and product swaps"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/minecraft-voxel-product-renders"
+        },
+        {
+            "id": 2,
             "title": "Futuristic Neon Food Visuals",
             "description": "Cinematic neon street food branding visuals",
             "price": "$3.99",
@@ -24,7 +47,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/neon-future-street-food-brand-visuals-2"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "Cute Horror Chibi Illustration Set",
             "description": "Storybook-style cute horror characters inspired by iconic horror films",
             "price": "$3.99",
@@ -47,7 +70,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/soft-horror-kawaii-chibis-2"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Fashion Photography Prompt",
             "description": "High-fashion editorial shots with dramatic lighting",
             "price": "$3.99",
@@ -70,7 +93,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/fashion-photography-19"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Architecture Visualization",
             "description": "Modern architectural renders with realistic materials",
             "price": "$2.99",
@@ -91,29 +114,6 @@
                 "Multiple lighting scenarios"
             ],
             "promptBaseUrl": "https://promptbase.com/prompt/modern-architecture-visualizations-2"
-        },
-        {
-            "id": 5,
-            "title": "Landscape Photography Prompt",
-            "description": "Breathtaking landscape scenes with perfect composition",
-            "price": "$2.99",
-            "category": "Landscape",
-            "results": [
-                {
-                    "title": "Mountain Sunrise",
-                    "image": "https://i.pinimg.com/736x/72/33/3f/72333f94eb421fc50b04d52ca092258a.jpg"
-                },
-                {
-                    "title": "Forest Pathway",
-                    "image": "https://i.pinimg.com/736x/1e/8c/77/1e8c77add546e33702135dde8509e49b.jpg"
-                }
-            ],
-            "benefits": [
-                "Professional composition rules",
-                "Perfect lighting conditions",
-                "Easy location changes"
-            ],
-            "promptBaseUrl": "https://promptbase.com/prompt/cinematic-landscape-photography-4"
         },
         {
             "id": 6,
