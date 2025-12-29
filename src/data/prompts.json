@@ -2,6 +2,29 @@
     "prompts": [
         {
             "id": 1,
+            "title": "Luxury Capsule Product Render Prompt",
+            "description": "Create premium capsule-style product visuals for famous brands",
+            "price": "$3.99",
+            "category": "Product Photography",
+            "results": [
+                {
+                    "title": "Ferrero Rocher Capsule Render",
+                    "image": "https://i.pinimg.com/736x/f0/44/89/f044895ab5d83347df1241af4b3381f9.jpg"
+                },
+                {
+                    "title": "Pringles Capsule Render",
+                    "image": "https://i.pinimg.com/736x/b3/33/dc/b333dc20148e9fa688e982dd61b572ba.jpg"
+                }
+            ],
+            "benefits": [
+                "High-end advertising look",
+                "Brand-accurate colors and materials",
+                "Perfect for social media and ads"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/capsule-product-ad-images"
+        },
+        {
+            "id": 2,
             "title": "Cinematic Voxel Product Prompt",
             "description": "Premium voxel-style product renders with cinematic lighting",
             "price": "$3.99",
@@ -24,7 +47,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/minecraft-voxel-product-renders"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "Futuristic Neon Food Visuals",
             "description": "Cinematic neon street food branding visuals",
             "price": "$3.99",
@@ -47,7 +70,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/neon-future-street-food-brand-visuals-2"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Cute Horror Chibi Illustration Set",
             "description": "Storybook-style cute horror characters inspired by iconic horror films",
             "price": "$3.99",
@@ -70,7 +93,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/soft-horror-kawaii-chibis-2"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Fashion Photography Prompt",
             "description": "High-fashion editorial shots with dramatic lighting",
             "price": "$3.99",
@@ -93,7 +116,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/fashion-photography-19"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Architecture Visualization",
             "description": "Modern architectural renders with realistic materials",
             "price": "$2.99",
@@ -114,29 +137,6 @@
                 "Multiple lighting scenarios"
             ],
             "promptBaseUrl": "https://promptbase.com/prompt/modern-architecture-visualizations-2"
-        },
-        {
-            "id": 6,
-            "title": "Product Photography Prompt",
-            "description": "Professional product shots with studio lighting",
-            "price": "$4.99",
-            "category": "Product Photography",
-            "results": [
-                {
-                    "title": "Food Product",
-                    "image": "https://i.pinimg.com/736x/a0/69/57/a06957ff1fadb7eb2bfa7be7033a7161.jpg"
-                },
-                {
-                    "title": "Cosmetics Product",
-                    "image": "https://i.pinimg.com/736x/20/28/d2/2028d268ea20cf0bb944cc68df7e9baa.jpg"
-                }
-            ],
-            "benefits": [
-                "No photography equipment needed",
-                "Perfect lighting every time",
-                "Consistent brand styling"
-            ],
-            "promptBaseUrl": "https://promptbase.com/prompt/premium-product-photography-5"
         },
         {
             "id": 7,
