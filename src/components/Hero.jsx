@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { HiMail, HiSparkles } from 'react-icons/hi';
+import profilePic from "../assets/profile_photo/pfp.png";
 
 const Hero = () => {
     return (
@@ -12,6 +13,13 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                 >
+                    <div className="flex justify-center mb-8">
+                        <img
+                            src={profilePic}
+                            alt="Azad Kumar"
+                            className="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-white dark:border-slate-800 shadow-2xl"
+                        />
+                    </div>
                     <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-slate-900 dark:text-white mb-6">
                         Hi, I'm{' '}
                         <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">

@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { SiReact } from 'react-icons/si';
+import profilePic from "../assets/profile_photo/pfp.png";
+
 import { HiMenu, HiX } from 'react-icons/hi';
 
 const Navbar = () => {
@@ -26,7 +28,11 @@ const Navbar = () => {
                 <div className="flex justify-between items-center h-16">
                     {/* Logo */}
                     <Link to="/" className="flex items-center space-x-2">
-                        <SiReact className="h-8 w-8 text-blue-500" />
+                        {location.pathname === '/' ? (
+                            <SiReact className="h-8 w-8 text-blue-500" />
+                        ) : (
+                            <img src={profilePic} alt="Profile" className="h-8 w-8 rounded-full object-cover" />
+                        )}
                         <span className="font-bold text-xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                             Portfolio
                         </span>
@@ -39,8 +45,8 @@ const Navbar = () => {
                                 key={item.name}
                                 to={item.path}
                                 className={`px-3 py-2 rounded-lg font-medium transition-all duration-200 ${location.pathname === item.path
-                                        ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20'
-                                        : 'text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400'
+                                    ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20'
+                                    : 'text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400'
                                     }`}
                             >
                                 {item.name}
@@ -70,8 +76,8 @@ const Navbar = () => {
                                 to={item.path}
                                 onClick={() => setIsOpen(false)}
                                 className={`block px-4 py-3 rounded-lg font-medium transition-all duration-200 ${location.pathname === item.path
-                                        ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20'
-                                        : 'text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400'
+                                    ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20'
+                                    : 'text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400'
                                     }`}
                             >
                                 {item.name}
