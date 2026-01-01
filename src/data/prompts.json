@@ -2,6 +2,29 @@
     "prompts": [
         {
             "id": 1,
+            "title": "Airplane Window City Views",
+            "description": "Photoreal airplane window views of iconic world cities",
+            "price": "$3.99",
+            "category": "Airplane Window View",
+            "results": [
+                {
+                    "title": "San Francisco Golden Gate View",
+                    "image": "https://i.pinimg.com/736x/ea/8b/9f/ea8b9f987d341f806ac5691c8c0a6620.jpg"
+                },
+                {
+                    "title": "Paris Eiffel Tower View",
+                    "image": "https://i.pinimg.com/736x/8d/58/22/8d582268263abf5b101f600d617361be.jpg"
+                }
+            ],
+            "benefits": [
+                "Ultra-real airplane window realism",
+                "Cinematic city skyline views",
+                "Perfect for Pinterest and websites"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/airplane-window-city-views"
+        },
+        {
+            "id": 2,
             "title": "Luxury Capsule Product Render Prompt",
             "description": "Create premium capsule-style product visuals for famous brands",
             "price": "$3.99",
@@ -24,7 +47,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/capsule-product-ad-images"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "Cinematic Voxel Product Prompt",
             "description": "Premium voxel-style product renders with cinematic lighting",
             "price": "$3.99",
@@ -47,7 +70,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/minecraft-voxel-product-renders"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Futuristic Neon Food Visuals",
             "description": "Cinematic neon street food branding visuals",
             "price": "$3.99",
@@ -70,7 +93,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/neon-future-street-food-brand-visuals-2"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Cute Horror Chibi Illustration Set",
             "description": "Storybook-style cute horror characters inspired by iconic horror films",
             "price": "$3.99",
@@ -93,7 +116,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/soft-horror-kawaii-chibis-2"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Fashion Photography Prompt",
             "description": "High-fashion editorial shots with dramatic lighting",
             "price": "$3.99",
@@ -114,29 +137,6 @@
                 "Consistent model poses"
             ],
             "promptBaseUrl": "https://promptbase.com/prompt/fashion-photography-19"
-        },
-        {
-            "id": 6,
-            "title": "Architecture Visualization",
-            "description": "Modern architectural renders with realistic materials",
-            "price": "$2.99",
-            "category": "Architecture",
-            "results": [
-                {
-                    "title": "Modern Villa",
-                    "image": "https://i.pinimg.com/736x/a3/16/2a/a3162a31785fb4fbd9c42a9e84f477dd.jpg"
-                },
-                {
-                    "title": "Skyscraper Design",
-                    "image": "https://i.pinimg.com/736x/ec/10/77/ec1077c4eedd477410ba7b8559dcee7c.jpg"
-                }
-            ],
-            "benefits": [
-                "Architectural accuracy",
-                "Realistic material textures",
-                "Multiple lighting scenarios"
-            ],
-            "promptBaseUrl": "https://promptbase.com/prompt/modern-architecture-visualizations-2"
         },
         {
             "id": 7,
