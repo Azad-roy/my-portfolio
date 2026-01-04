@@ -1,7 +1,30 @@
 {
     "prompts": [
         {
-            "id": 1,
+            "id":18,
+            "title": "Pixar Style Social Media Influencer Prompt",
+            "description": "Create Disney Pixar style 3D social media influencer visuals for mobile platforms",
+            "price": "$3.99",
+            "category": "3D Character Design",
+            "results": [
+                {
+                    "title": "Instagram Influencer 3D Character",
+                    "image": "https://i.pinimg.com/736x/6e/35/cc/6e35ccf5f15e0bbf590a10b73d088cde.jpg"
+                },
+                {
+                    "title": "TikTok Creator 3D Character",
+                    "image": "https://i.pinimg.com/736x/1d/34/fb/1d34fb81be07145c2530b66a0282e3c0.jpg"
+                }
+            ],
+            "benefits": [
+                "Mobile-first social media visuals",
+                "Consistent Pixar-style characters",
+                "Perfect for creators and branding"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/disney-3d-social-media-posts"
+        },
+        {
+            "id": 2,
             "title": "Airplane Window City Views",
             "description": "Photoreal airplane window views of iconic world cities",
             "price": "$3.99",
@@ -24,7 +47,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/airplane-window-city-views"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "Luxury Capsule Product Render Prompt",
             "description": "Create premium capsule-style product visuals for famous brands",
             "price": "$3.99",
@@ -47,7 +70,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/capsule-product-ad-images"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Cinematic Voxel Product Prompt",
             "description": "Premium voxel-style product renders with cinematic lighting",
             "price": "$3.99",
@@ -70,7 +93,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/minecraft-voxel-product-renders"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Futuristic Neon Food Visuals",
             "description": "Cinematic neon street food branding visuals",
             "price": "$3.99",
@@ -93,7 +116,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/neon-future-street-food-brand-visuals-2"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Cute Horror Chibi Illustration Set",
             "description": "Storybook-style cute horror characters inspired by iconic horror films",
             "price": "$3.99",
@@ -116,7 +139,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/soft-horror-kawaii-chibis-2"
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "Fashion Photography Prompt",
             "description": "High-fashion editorial shots with dramatic lighting",
             "price": "$3.99",
@@ -139,7 +162,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/fashion-photography-19"
         },
         {
-            "id": 7,
+            "id": 8,
             "title": "Character Design Template",
             "description": "Generate consistent character designs with detailed features",
             "price": "$2.99",
@@ -160,29 +183,6 @@
                 "Dynamic posing options"
             ],
             "promptBaseUrl": "https://promptbase.com/prompt/cyberpunk-character-designs"
-        },
-        {
-            "id": 8,
-            "title": "Minimalist Interior Design Prompt",
-            "description": "Create stunning, photorealistic interior designs with consistent lighting",
-            "price": "$3.99",
-            "category": "Interior Design",
-            "results": [
-                {
-                    "title": "Minimalist Bedroom Interior",
-                    "image": "https://i.pinimg.com/736x/3c/90/88/3c9088e71e4c7ea7023122fbd96f0ec9.jpg"
-                },
-                {
-                    "title": "Luxury Modern Bathroom Interior",
-                    "image": "https://i.pinimg.com/736x/b0/9a/b2/b09ab2e91f45fc3430489bcb97b35733.jpg"
-                }
-            ],
-            "benefits": [
-                "Save 5+ hours of prompt engineering",
-                "Consistent architectural style",
-                "Professional lighting setup"
-            ],
-            "promptBaseUrl": "https://promptbase.com/prompt/minimalist-interior-design"
         },
         {
             "id": 9,
