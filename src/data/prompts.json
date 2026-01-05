@@ -1,7 +1,30 @@
 {
     "prompts": [
         {
-            "id":18,
+            "id": 1,
+            "title": "Cinematic Drink Product Prompt",
+            "description": "High-end cinematic drink visuals for ads and branding",
+            "price": "$3.99",
+            "category": "Product Photography",
+            "results": [
+                {
+                    "title": "Luxury Cold Brew Coffee",
+                    "image": "https://i.pinimg.com/736x/c9/ee/8e/c9ee8e991c786b4654b84bbb4925ae11.jpg"
+                },
+                {
+                    "title": "Neon Energy Drink Ad",
+                    "image": "https://i.pinimg.com/474x/05/9c/8a/059c8a354e24919874dfddf1a5a0a5f4.jpg"
+                }
+            ],
+            "benefits": [
+                "Ad-ready cinematic lighting",
+                "Auto-adaptive product mood",
+                "Scroll-stopping compositions"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/cinematic-product-visuals"
+        },
+        {
+            "id": 2,
             "title": "Pixar Style Social Media Influencer Prompt",
             "description": "Create Disney Pixar style 3D social media influencer visuals for mobile platforms",
             "price": "$3.99",
@@ -24,7 +47,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/disney-3d-social-media-posts"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "Airplane Window City Views",
             "description": "Photoreal airplane window views of iconic world cities",
             "price": "$3.99",
@@ -47,7 +70,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/airplane-window-city-views"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Luxury Capsule Product Render Prompt",
             "description": "Create premium capsule-style product visuals for famous brands",
             "price": "$3.99",
@@ -70,7 +93,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/capsule-product-ad-images"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Cinematic Voxel Product Prompt",
             "description": "Premium voxel-style product renders with cinematic lighting",
             "price": "$3.99",
@@ -93,7 +116,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/minecraft-voxel-product-renders"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Futuristic Neon Food Visuals",
             "description": "Cinematic neon street food branding visuals",
             "price": "$3.99",
@@ -116,7 +139,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/neon-future-street-food-brand-visuals-2"
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "Cute Horror Chibi Illustration Set",
             "description": "Storybook-style cute horror characters inspired by iconic horror films",
             "price": "$3.99",
@@ -137,29 +160,6 @@
                 "Perfect for posters, merch, and digital art"
             ],
             "promptBaseUrl": "https://promptbase.com/prompt/soft-horror-kawaii-chibis-2"
-        },
-        {
-            "id": 7,
-            "title": "Fashion Photography Prompt",
-            "description": "High-fashion editorial shots with dramatic lighting",
-            "price": "$3.99",
-            "category": "Fashion",
-            "results": [
-                {
-                    "title": "Runway Fashion",
-                    "image": "https://i.pinimg.com/736x/b3/fc/a0/b3fca0bfb5b7c5c743f8b71defe29e97.jpg"
-                },
-                {
-                    "title": "Street Style",
-                    "image": "https://i.pinimg.com/736x/2e/66/25/2e6625d2ffb93da1a9eb9d93bfeca732.jpg"
-                }
-            ],
-            "benefits": [
-                "Professional fashion styling",
-                "Multiple outfit variations",
-                "Consistent model poses"
-            ],
-            "promptBaseUrl": "https://promptbase.com/prompt/fashion-photography-19"
         },
         {
             "id": 8,
