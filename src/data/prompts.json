@@ -2,6 +2,29 @@
     "prompts": [
         {
             "id": 1,
+            "title": "Cute Pastel Sticker Illustration Set",
+            "description": "Soft minimal pastel stickers with cute expressions and bold outlines",
+            "price": "$3.99",
+            "category": "Illustration Design",
+            "results": [
+                {
+                    "title": "Help Me Cuty Sticker",
+                    "image": "https://i.pinimg.com/736x/6e/25/28/6e252850baec3c2a5df7549800449a75.jpg"
+                },
+                {
+                    "title": "Cute Angry Frog Sticker",
+                    "image": "https://i.pinimg.com/736x/10/af/4c/10af4cd893db8027388e46ee75a98233.jpg"
+                }
+            ],
+            "benefits": [
+                "Clean pastel sticker style",
+                "Bold outlines with cute expressions",
+                "Perfect for planners and digital stickers"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/expressive-clean-sticker-templates"
+        },
+        {
+            "id": 2,
             "title": "Cinematic Drink Product Prompt",
             "description": "High-end cinematic drink visuals for ads and branding",
             "price": "$3.99",
@@ -24,7 +47,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/cinematic-product-visuals"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "Pixar Style Social Media Influencer Prompt",
             "description": "Create Disney Pixar style 3D social media influencer visuals for mobile platforms",
             "price": "$3.99",
@@ -47,7 +70,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/disney-3d-social-media-posts"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Airplane Window City Views",
             "description": "Photoreal airplane window views of iconic world cities",
             "price": "$3.99",
@@ -70,7 +93,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/airplane-window-city-views"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Luxury Capsule Product Render Prompt",
             "description": "Create premium capsule-style product visuals for famous brands",
             "price": "$3.99",
@@ -93,7 +116,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/capsule-product-ad-images"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Cinematic Voxel Product Prompt",
             "description": "Premium voxel-style product renders with cinematic lighting",
             "price": "$3.99",
@@ -116,7 +139,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/minecraft-voxel-product-renders"
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "Futuristic Neon Food Visuals",
             "description": "Cinematic neon street food branding visuals",
             "price": "$3.99",
@@ -137,29 +160,6 @@
                 "Consistent futuristic style"
             ],
             "promptBaseUrl": "https://promptbase.com/prompt/neon-future-street-food-brand-visuals-2"
-        },
-        {
-            "id": 7,
-            "title": "Cute Horror Chibi Illustration Set",
-            "description": "Storybook-style cute horror characters inspired by iconic horror films",
-            "price": "$3.99",
-            "category": "Illustration Design",
-            "results": [
-                {
-                    "title": "Cute Horror Doll Couple",
-                    "image": "https://i.pinimg.com/736x/ef/6f/e9/ef6fe9f6519e46d8a8cbf111178ea5db.jpg"
-                },
-                {
-                    "title": "Cute Horror Halloween Duo",
-                    "image": "https://i.pinimg.com/736x/5c/2f/62/5c2f6246a1242df795fbe98ab7154680.jpg"
-                }
-            ],
-            "benefits": [
-                "Premium cute-horror storybook style",
-                "Consistent chibi characters with soft details",
-                "Perfect for posters, merch, and digital art"
-            ],
-            "promptBaseUrl": "https://promptbase.com/prompt/soft-horror-kawaii-chibis-2"
         },
         {
             "id": 8,
