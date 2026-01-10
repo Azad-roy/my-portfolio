@@ -2,6 +2,29 @@
     "prompts": [
         {
             "id": 1,
+            "title": "Crazy Celebrity Cartoon Food Ads",
+            "description": "Viral cartoon-style celebrity food ads with bold branding",
+            "price": "$3.99",
+            "category": "Food Branding",
+            "results": [
+                {
+                    "title": "Virat Kohli Haldiram’s Cartoon Ad",
+                    "image": "https://i.pinimg.com/736x/e9/27/37/e92737dea7944a1aa980ac9f7bc4e9c0.jpg"
+                },
+                {
+                    "title": "MrBeast Burger King Cartoon Ad",
+                    "image": "https://i.pinimg.com/474x/67/3b/59/673b595fdf932072f45b0177e4c38f95.jpg"
+                }
+            ],
+            "benefits": [
+                "High-CTR celebrity visuals",
+                "Bold cartoon ad style",
+                "Perfect for social media branding"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/celebrity-cartoon-brand-food-ads"
+        },
+        {
+            "id": 2,
             "title": "Cute Pastel Sticker Illustration Set",
             "description": "Soft minimal pastel stickers with cute expressions and bold outlines",
             "price": "$3.99",
@@ -24,7 +47,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/expressive-clean-sticker-templates"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "Cinematic Drink Product Prompt",
             "description": "High-end cinematic drink visuals for ads and branding",
             "price": "$3.99",
@@ -47,7 +70,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/cinematic-product-visuals"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Pixar Style Social Media Influencer Prompt",
             "description": "Create Disney Pixar style 3D social media influencer visuals for mobile platforms",
             "price": "$3.99",
@@ -70,7 +93,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/disney-3d-social-media-posts"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Airplane Window City Views",
             "description": "Photoreal airplane window views of iconic world cities",
             "price": "$3.99",
@@ -93,7 +116,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/airplane-window-city-views"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Luxury Capsule Product Render Prompt",
             "description": "Create premium capsule-style product visuals for famous brands",
             "price": "$3.99",
@@ -116,7 +139,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/capsule-product-ad-images"
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "Cinematic Voxel Product Prompt",
             "description": "Premium voxel-style product renders with cinematic lighting",
             "price": "$3.99",
@@ -137,29 +160,6 @@
                 "Easy brand and product swaps"
             ],
             "promptBaseUrl": "https://promptbase.com/prompt/minecraft-voxel-product-renders"
-        },
-        {
-            "id": 7,
-            "title": "Futuristic Neon Food Visuals",
-            "description": "Cinematic neon street food branding visuals",
-            "price": "$3.99",
-            "category": "Food Branding",
-            "results": [
-                {
-                    "title": "Neon Burger Branding",
-                    "image": "https://i.pinimg.com/736x/14/bf/db/14bfdb1e8c3f2268c18bd47d933afb5b.jpg"
-                },
-                {
-                    "title": "Neon Dessert Branding",
-                    "image": "https://i.pinimg.com/474x/e3/65/26/e36526ae597b1b6ff1f2faf3e4c89942.jpg"
-                }
-            ],
-            "benefits": [
-                "Mobile-first portrait visuals",
-                "High-impact neon lighting",
-                "Consistent futuristic style"
-            ],
-            "promptBaseUrl": "https://promptbase.com/prompt/neon-future-street-food-brand-visuals-2"
         },
         {
             "id": 8,
