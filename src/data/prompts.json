@@ -2,6 +2,29 @@
     "prompts": [
         {
             "id": 1,
+            "title": "Hyper-Realistic First-Person POV Prompts",
+            "description": "Ultra-cinematic first-person POV scenes with extreme realism",
+            "price": "$3.99",
+            "category": "First-Person POV",
+            "results": [
+                {
+                    "title": "Dragon Flight Above Medieval City",
+                    "image": "https://i.pinimg.com/474x/6f/52/6c/6f526c7bc8a0fdc9ad143cf3b7aeed75.jpg"
+                },
+                {
+                    "title": "Spaceship Crash Landing POV",
+                    "image": "https://i.pinimg.com/736x/fd/1c/68/fd1c6863cad17bb271e4d09261eca7db.jpg"
+                }
+            ],
+            "benefits": [
+                "True first-person hyper realism",
+                "Cinematic mobile-optimized framing",
+                "Perfect for Pinterest and storytelling visuals"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/firstperson-cinematic-pov-images"
+        },
+        {
+            "id": 2,
             "title": "Crazy Celebrity Cartoon Food Ads",
             "description": "Viral cartoon-style celebrity food ads with bold branding",
             "price": "$3.99",
@@ -24,7 +47,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/celebrity-cartoon-brand-food-ads"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "Cute Pastel Sticker Illustration Set",
             "description": "Soft minimal pastel stickers with cute expressions and bold outlines",
             "price": "$3.99",
@@ -47,7 +70,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/expressive-clean-sticker-templates"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Cinematic Drink Product Prompt",
             "description": "High-end cinematic drink visuals for ads and branding",
             "price": "$3.99",
@@ -70,7 +93,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/cinematic-product-visuals"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Pixar Style Social Media Influencer Prompt",
             "description": "Create Disney Pixar style 3D social media influencer visuals for mobile platforms",
             "price": "$3.99",
@@ -91,29 +114,6 @@
                 "Perfect for creators and branding"
             ],
             "promptBaseUrl": "https://promptbase.com/prompt/disney-3d-social-media-posts"
-        },
-        {
-            "id": 5,
-            "title": "Airplane Window City Views",
-            "description": "Photoreal airplane window views of iconic world cities",
-            "price": "$3.99",
-            "category": "Airplane Window View",
-            "results": [
-                {
-                    "title": "San Francisco Golden Gate View",
-                    "image": "https://i.pinimg.com/736x/ea/8b/9f/ea8b9f987d341f806ac5691c8c0a6620.jpg"
-                },
-                {
-                    "title": "Paris Eiffel Tower View",
-                    "image": "https://i.pinimg.com/736x/8d/58/22/8d582268263abf5b101f600d617361be.jpg"
-                }
-            ],
-            "benefits": [
-                "Ultra-real airplane window realism",
-                "Cinematic city skyline views",
-                "Perfect for Pinterest and websites"
-            ],
-            "promptBaseUrl": "https://promptbase.com/prompt/airplane-window-city-views"
         },
         {
             "id": 6,
