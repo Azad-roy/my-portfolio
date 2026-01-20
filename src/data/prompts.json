@@ -2,6 +2,29 @@
     "prompts": [
         {
             "id": 1,
+            "title": "Ultra-Realistic Cinematic Nature Prompt",
+            "description": "Create flawless, photoreal cinematic nature scenes with physically believable environments and real-world lighting",
+            "price": "$3.99",
+            "category": "Cinematic Nature Environments",
+            "results": [
+                {
+                    "title": "Cinematic Tropical Waterfall Scene",
+                    "image": "https://i.pinimg.com/736x/99/17/e2/9917e25c2f7158dc25dce8dd0bf7f44c.jpg"
+                },
+                {
+                    "title": "Pristine Eden Valley Landscape",
+                    "image": "Ihttps://i.pinimg.com/736x/58/f1/82/58f1829d79402899e671942506bcbd26.jpg"
+                }
+            ],
+            "benefits": [
+                "Ultra-realistic photoreal output",
+                "Physically accurate lighting and atmosphere",
+                "Perfect for cinematic visuals and AI portfolios"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/cinematic-eden-realworld-images"
+        },
+        {
+            "id": 2,
             "title": "Hyper-Realistic First-Person POV Prompts",
             "description": "Ultra-cinematic first-person POV scenes with extreme realism",
             "price": "$3.99",
@@ -24,7 +47,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/firstperson-cinematic-pov-images"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "Crazy Celebrity Cartoon Food Ads",
             "description": "Viral cartoon-style celebrity food ads with bold branding",
             "price": "$3.99",
@@ -47,7 +70,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/celebrity-cartoon-brand-food-ads"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Cute Pastel Sticker Illustration Set",
             "description": "Soft minimal pastel stickers with cute expressions and bold outlines",
             "price": "$3.99",
@@ -70,7 +93,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/expressive-clean-sticker-templates"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Cinematic Drink Product Prompt",
             "description": "High-end cinematic drink visuals for ads and branding",
             "price": "$3.99",
@@ -91,29 +114,6 @@
                 "Scroll-stopping compositions"
             ],
             "promptBaseUrl": "https://promptbase.com/prompt/cinematic-product-visuals"
-        },
-        {
-            "id": 5,
-            "title": "Pixar Style Social Media Influencer Prompt",
-            "description": "Create Disney Pixar style 3D social media influencer visuals for mobile platforms",
-            "price": "$3.99",
-            "category": "3D Character Design",
-            "results": [
-                {
-                    "title": "Instagram Influencer 3D Character",
-                    "image": "https://i.pinimg.com/736x/6e/35/cc/6e35ccf5f15e0bbf590a10b73d088cde.jpg"
-                },
-                {
-                    "title": "TikTok Creator 3D Character",
-                    "image": "https://i.pinimg.com/736x/1d/34/fb/1d34fb81be07145c2530b66a0282e3c0.jpg"
-                }
-            ],
-            "benefits": [
-                "Mobile-first social media visuals",
-                "Consistent Pixar-style characters",
-                "Perfect for creators and branding"
-            ],
-            "promptBaseUrl": "https://promptbase.com/prompt/disney-3d-social-media-posts"
         },
         {
             "id": 6,
