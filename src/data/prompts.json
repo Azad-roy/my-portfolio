@@ -2,6 +2,29 @@
     "prompts": [
         {
             "id": 1,
+            "title": "Toy Figure Editorial Writing Layouts",
+            "description": "Minimal toy figure side layouts with premium textured negative space",
+            "price": "$3.99",
+            "category": "Editorial & Writing Design",
+            "results": [
+                {
+                    "title": "Toy Figure Book Cover Layout",
+                    "image": "https://i.pinimg.com/736x/47/e6/a2/47e6a20cf578abee88edfeea30f3e4c0.jpg"
+                },
+                {
+                    "title": "Toy Figure Typography Layout",
+                    "image": "https://i.pinimg.com/736x/b5/c1/a7/b5c1a7cabb08a2c0bdb601eb6c5c4c4c.jpg"
+                }
+            ],
+            "benefits": [
+                "Clean toy-figure editorial style",
+                "Large negative space for writing",
+                "Perfect for book covers and typography"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/premium-texture-pages-for-writing"
+        },
+        {
+            "id": 2,
             "title": "Ultra-Realistic Cinematic Nature Prompt",
             "description": "Create flawless, photoreal cinematic nature scenes with realistic lighting",
             "price": "$3.99",
@@ -24,7 +47,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/cinematic-eden-realworld-images"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "Hyper-Realistic First-Person POV Prompts",
             "description": "Ultra-cinematic first-person POV scenes with extreme realism",
             "price": "$3.99",
@@ -47,7 +70,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/firstperson-cinematic-pov-images"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Crazy Celebrity Cartoon Food Ads",
             "description": "Viral cartoon-style celebrity food ads with bold branding",
             "price": "$3.99",
@@ -68,29 +91,6 @@
                 "Perfect for social media branding"
             ],
             "promptBaseUrl": "https://promptbase.com/prompt/celebrity-cartoon-brand-food-ads"
-        },
-        {
-            "id": 4,
-            "title": "Cute Pastel Sticker Illustration Set",
-            "description": "Soft minimal pastel stickers with cute expressions and bold outlines",
-            "price": "$3.99",
-            "category": "Illustration Design",
-            "results": [
-                {
-                    "title": "Help Me Cuty Sticker",
-                    "image": "https://i.pinimg.com/736x/6e/25/28/6e252850baec3c2a5df7549800449a75.jpg"
-                },
-                {
-                    "title": "Cute Angry Frog Sticker",
-                    "image": "https://i.pinimg.com/736x/10/af/4c/10af4cd893db8027388e46ee75a98233.jpg"
-                }
-            ],
-            "benefits": [
-                "Clean pastel sticker style",
-                "Bold outlines with cute expressions",
-                "Perfect for planners and digital stickers"
-            ],
-            "promptBaseUrl": "https://promptbase.com/prompt/expressive-clean-sticker-templates"
         },
         {
             "id": 5,
