@@ -2,6 +2,29 @@
     "prompts": [
         {
             "id": 1,
+            "title": "Nostalgic Childhood Coloring Pages Prompt",
+            "description": "Create print-ready black and white nostalgic coloring book pages",
+            "price": "$2.99",
+            "category": "Coloring Book Illustration",
+            "results": [
+                {
+                    "title": "School Days Coloring Page",
+                    "image": "https://i.pinimg.com/736x/b3/75/35/b37535ba1af8ae43441d8a4774e99de6.jpg"
+                },
+                {
+                    "title": "Summer Vacation Coloring Page",
+                    "image": "https://i.pinimg.com/736x/2f/62/97/2f62973d940e9929556c352deb744c4f.jpg"
+                }
+            ],
+            "benefits": [
+                "Print-ready for A4 and US Letter",
+                "Clean bold lines for easy coloring",
+                "Perfect for kids and adults"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/nostalgic-childhood-coloring-pages-2"
+        },
+        {
+            "id": 2,
             "title": "Toy Figure Editorial Writing Layouts",
             "description": "Minimal toy figure side layouts with premium textured negative space",
             "price": "$3.99",
@@ -24,7 +47,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/premium-texture-pages-for-writing"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "Ultra-Realistic Cinematic Nature Prompt",
             "description": "Create flawless, photoreal cinematic nature scenes with realistic lighting",
             "price": "$3.99",
@@ -47,7 +70,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/cinematic-eden-realworld-images"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Hyper-Realistic First-Person POV Prompts",
             "description": "Ultra-cinematic first-person POV scenes with extreme realism",
             "price": "$3.99",
@@ -70,7 +93,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/firstperson-cinematic-pov-images"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Crazy Celebrity Cartoon Food Ads",
             "description": "Viral cartoon-style celebrity food ads with bold branding",
             "price": "$3.99",
@@ -93,7 +116,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/celebrity-cartoon-brand-food-ads"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Cinematic Drink Product Prompt",
             "description": "High-end cinematic drink visuals for ads and branding",
             "price": "$3.99",
@@ -114,29 +137,6 @@
                 "Scroll-stopping compositions"
             ],
             "promptBaseUrl": "https://promptbase.com/prompt/cinematic-product-visuals"
-        },
-        {
-            "id": 6,
-            "title": "Luxury Capsule Product Render Prompt",
-            "description": "Create premium capsule-style product visuals for famous brands",
-            "price": "$3.99",
-            "category": "Product Photography",
-            "results": [
-                {
-                    "title": "Ferrero Rocher Capsule Render",
-                    "image": "https://i.pinimg.com/736x/f0/44/89/f044895ab5d83347df1241af4b3381f9.jpg"
-                },
-                {
-                    "title": "Pringles Capsule Render",
-                    "image": "https://i.pinimg.com/736x/b3/33/dc/b333dc20148e9fa688e982dd61b572ba.jpg"
-                }
-            ],
-            "benefits": [
-                "High-end advertising look",
-                "Brand-accurate colors and materials",
-                "Perfect for social media and ads"
-            ],
-            "promptBaseUrl": "https://promptbase.com/prompt/capsule-product-ad-images"
         },
         {
             "id": 7,
