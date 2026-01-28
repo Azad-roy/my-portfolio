@@ -2,6 +2,29 @@
     "prompts": [
         {
             "id": 1,
+            "title": "Seamless Floral Wallpaper Patterns 2026",
+            "description": "Luxury seamless floral wallpaper designs inspired by 2026 interior trends",
+            "price": "$3.99",
+            "category": "Surface Pattern Design",
+            "results": [
+                {
+                    "title": "Watercolor Wildflower Seamless Pattern",
+                    "image": "https://i.pinimg.com/736x/dd/b8/8c/ddb88c529f3996864d8985d2b6593ccc.jpg"
+                },
+                {
+                    "title": "Tropical Exotic Floral Seamless Pattern",
+                    "image": "https://i.pinimg.com/736x/42/b3/10/42b31018d34f1c2ff27988e5423abcd6.jpg"
+                }
+            ],
+            "benefits": [
+                "Print-ready 6000×6000 wallpaper",
+                "Seamless tileable floral design",
+                "Commercial interior use"
+            ],
+            "promptBaseUrl": "https://promptbase.com/prompt/colorful-seamless-floral-wallpaper-patterns"
+        },
+        {
+            "id": 2,
             "title": "Nostalgic Childhood Coloring Pages Prompt",
             "description": "Create print-ready black and white nostalgic coloring book pages",
             "price": "$2.99",
@@ -24,7 +47,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/nostalgic-childhood-coloring-pages-2"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "Toy Figure Editorial Writing Layouts",
             "description": "Minimal toy figure side layouts with premium textured negative space",
             "price": "$3.99",
@@ -47,7 +70,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/premium-texture-pages-for-writing"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Ultra-Realistic Cinematic Nature Prompt",
             "description": "Create flawless, photoreal cinematic nature scenes with realistic lighting",
             "price": "$3.99",
@@ -70,7 +93,7 @@
             "promptBaseUrl": "https://promptbase.com/prompt/cinematic-eden-realworld-images"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Hyper-Realistic First-Person POV Prompts",
             "description": "Ultra-cinematic first-person POV scenes with extreme realism",
             "price": "$3.99",
@@ -91,29 +114,6 @@
                 "Perfect for Pinterest and storytelling visuals"
             ],
             "promptBaseUrl": "https://promptbase.com/prompt/firstperson-cinematic-pov-images"
-        },
-        {
-            "id": 5,
-            "title": "Crazy Celebrity Cartoon Food Ads",
-            "description": "Viral cartoon-style celebrity food ads with bold branding",
-            "price": "$3.99",
-            "category": "Food Branding",
-            "results": [
-                {
-                    "title": "Virat Kohli Haldiram’s Cartoon Ad",
-                    "image": "https://i.pinimg.com/736x/e9/27/37/e92737dea7944a1aa980ac9f7bc4e9c0.jpg"
-                },
-                {
-                    "title": "MrBeast Burger King Cartoon Ad",
-                    "image": "https://i.pinimg.com/474x/67/3b/59/673b595fdf932072f45b0177e4c38f95.jpg"
-                }
-            ],
-            "benefits": [
-                "High-CTR celebrity visuals",
-                "Bold cartoon ad style",
-                "Perfect for social media branding"
-            ],
-            "promptBaseUrl": "https://promptbase.com/prompt/celebrity-cartoon-brand-food-ads"
         },
         {
             "id": 6,
