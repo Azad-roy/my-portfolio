@@ -241,7 +241,7 @@ For **every** form component above, include:
 ## 17) Notes About Provided Screenshots
 
 - The visible screenshot confirms the Form navigation list and was incorporated exactly.
-- Two screenshot URLs were provided but unavailable for direct rendering in this environment due image-limit constraints.
+- Two screenshot URLs were provided but unavailable for direct rendering in this environment due to image-limit constraints.
 - If you share those images later, append any missing UI details to this file under:
   - `Section 4 (Core UI Building Blocks)`
   - `Section 5 (Chat Experience)`
@@ -253,4 +253,3 @@ For **every** form component above, include:
 
 Use this checklist as a strict implementation brief.  
 Build incrementally in P0 → P1 → P2 order, and do not skip component states, accessibility, responsive behavior, and micro-interaction polish.
-
