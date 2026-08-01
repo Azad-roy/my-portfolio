@@ -2,8 +2,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { HiExternalLink, HiCode } from 'react-icons/hi';
+import { Link } from 'react-router-dom';
 
 const ProjectCard = ({ project, index }) => {
+    const isInternalProject = project.demo.startsWith('/');
+
     return (
         <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -58,16 +61,24 @@ const ProjectCard = ({ project, index }) => {
 
                 {/* Links */}
                 <div className="flex space-x-4">
-                
-                    <a
-                        href={project.demo}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center px-4 py-2 bg-slate-800 hover:bg-slate-900 text-white font-medium rounded-lg transition-all duration-200"
-                    >
-                        <HiExternalLink className="mr-2" />
-                        Live Demo
-                    </a>
+                    {isInternalProject ? (
+                        <Link
+                            to={project.demo}
+                            className="inline-flex items-center px-4 py-2 bg-slate-800 hover:bg-slate-900 text-white font-medium rounded-lg transition-all duration-200"
+                        >
+                            Explore Project
+                        </Link>
+                    ) : (
+                        <a
+                            href={project.demo}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center px-4 py-2 bg-slate-800 hover:bg-slate-900 text-white font-medium rounded-lg transition-all duration-200"
+                        >
+                            <HiExternalLink className="mr-2" />
+                            Live Demo
+                        </a>
+                    )}
                 </div>
             </div>
         </motion.div>

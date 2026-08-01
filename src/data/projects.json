@@ -109,6 +109,25 @@
                 "Frontend",
                 "Dashboard"
             ]
+        },
+        {
+            "id": 7,
+            "name": "PALINODE // 7",
+            "description": "An original interactive-world portfolio concept with reactive factions, persistent lore, nonlinear choices, and 30 deterministic narrative paths.",
+            "technologies": [
+                "React",
+                "TailwindCSS",
+                "Framer Motion",
+                "Narrative Systems"
+            ],
+            "github": "",
+            "demo": "/worlds/palinode-7",
+            "thumbnail": "/assets/project-thumbnails/palinode-7.svg",
+            "tags": [
+                "Interactive Fiction",
+                "Worldbuilding",
+                "React"
+            ]
         }
     ]
 }

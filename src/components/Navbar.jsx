@@ -57,6 +57,9 @@ const Navbar = () => {
                     {/* Mobile menu button */}
                     <button
                         onClick={() => setIsOpen(!isOpen)}
+                        aria-label={isOpen ? 'Close navigation menu' : 'Open navigation menu'}
+                        aria-expanded={isOpen}
+                        aria-controls="mobile-navigation"
                         className="md:hidden p-2 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800"
                     >
                         {isOpen ? <HiX size={24} /> : <HiMenu size={24} />}
@@ -66,6 +69,7 @@ const Navbar = () => {
                 {/* Mobile Navigation */}
                 {isOpen && (
                     <motion.div
+                        id="mobile-navigation"
                         initial={{ opacity: 0, scale: 0.95 }}
                         animate={{ opacity: 1, scale: 1 }}
                         className="md:hidden py-4 border-t border-slate-200 dark:border-slate-700"

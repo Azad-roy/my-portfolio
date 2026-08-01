@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title description">
+  <title id="title">PALINODE // 7 interactive world concept</title>
+  <desc id="description">Seven blue and violet timeline traces converge around a black-glass key above a layered future city.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="0.52" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#60a5fa" stop-opacity="0"/>
+      <stop offset="0.35" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#475569"/>
+      <stop offset="0.34" stop-color="#020617"/>
+      <stop offset="0.68" stop-color="#334155"/>
+      <stop offset="1" stop-color="#000000"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M 44 0 L 0 0 0 44" fill="none" stroke="#94a3b8" stroke-opacity="0.09" stroke-width="1"/>
+    </pattern>
+    <filter id="keyShadow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="14" result="blur"/>
+      <feColorMatrix in="blur" values="0 0 0 0 0.13 0 0 0 0 0.83 0 0 0 0 0.93 0 0 0 .35 0" result="colored"/>
+      <feMerge><feMergeNode in="colored"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#background)"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <circle cx="844" cy="280" r="310" fill="url(#glow)"/>
+  <circle cx="1100" cy="630" r="330" fill="#7c3aed" opacity="0.09"/>
+
+  <g fill="none" stroke="url(#signal)" stroke-width="3">
+    <path d="M70 102 H374 C438 102 444 162 516 162 H1080"/>
+    <path d="M70 132 H332 C424 132 420 208 520 208 H1080" opacity="0.9"/>
+    <path d="M70 162 H292 C406 162 406 254 520 254 H1080" opacity="0.82"/>
+    <path d="M70 192 H254 C386 192 388 300 520 300 H1080" opacity="0.74"/>
+    <path d="M70 222 H216 C372 222 374 346 520 346 H1080" opacity="0.66"/>
+    <path d="M70 252 H178 C356 252 360 392 520 392 H1080" opacity="0.58"/>
+    <path d="M70 282 H140 C338 282 346 438 520 438 H1080" opacity="0.5"/>
+  </g>
+
+  <g fill="#0f172a" stroke="#64748b" stroke-opacity="0.28">
+    <path d="M0 675V570H74V524H128V552H188V478H244V542H312V506H366V565H432V486H494V546H558V458H628V531H688V500H742V558H812V472H874V534H936V498H1004V552H1064V486H1120V542H1200V675Z"/>
+    <path d="M0 675V610H90V558H162V604H250V538H330V596H430V548H520V607H610V522H704V589H788V556H884V610H970V536H1072V592H1200V675Z" fill="#020617"/>
+  </g>
+
+  <g transform="translate(820 146)" filter="url(#keyShadow)">
+    <circle cx="0" cy="0" r="72" fill="none" stroke="url(#glass)" stroke-width="34"/>
+    <circle cx="0" cy="0" r="41" fill="#020617" stroke="#67e8f9" stroke-opacity="0.23" stroke-width="2"/>
+    <path d="M-16 69 H16 V275 H70 V307 H16 V344 H-16Z" fill="url(#glass)"/>
+    <path d="M0 82 V315" stroke="#67e8f9" stroke-opacity="0.28" stroke-width="2"/>
+  </g>
+
+  <g font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <text x="70" y="408" fill="#94a3b8" font-size="17" font-weight="700" letter-spacing="6">ORIGINAL INTERACTIVE WORLD CONCEPT</text>
+    <text x="70" y="486" fill="#f8fafc" font-size="72" font-weight="900" letter-spacing="-3">PALINODE</text>
+    <text x="70" y="552" fill="#67e8f9" font-size="58" font-weight="800" letter-spacing="2">// 7</text>
+    <text x="70" y="603" fill="#cbd5e1" font-size="22" font-weight="600">Seven futures share one city. Only one remembers you.</text>
+    <text x="1078" y="620" fill="#64748b" font-size="13" font-weight="700" letter-spacing="3" text-anchor="end">CYRUNE · MERIDIAN · 00:07</text>
+  </g>
+</svg>

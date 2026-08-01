@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Prompts from "./pages/Prompts";
 import Contact from "./pages/Contact";
+import PalinodeWorld from "./pages/PalinodeWorld";
 
 import { pageView } from "./analytics";
 
@@ -28,6 +29,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/prompts" element={<Prompts />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/worlds/palinode-7" element={<PalinodeWorld />} />
         </Routes>
       </main>
 
