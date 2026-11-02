@@ -1,99 +1,48 @@
 {
-    "categories": [
-        {
-            "name": "Languages",
-            "skills": [
-                {
-                    "name": "Java",
-                    "icon": "FaJava",
-                    "level": 85
-                },
-                {
-                    "name": "JavaScript",
-                    "icon": "SiJavascript",
-                    "level": 90
-                },
-                {
-                    "name": "Python",
-                    "icon": "SiPython",
-                    "level": 80
-                },
-                {
-                    "name": "HTML5",
-                    "icon": "SiHtml5",
-                    "level": 95
-                },
-                {
-                    "name": "CSS3",
-                    "icon": "SiCss3",
-                    "level": 90
-                }
-            ]
-        },
-        {
-            "name": "Frameworks",
-            "skills": [
-                {
-                    "name": "React",
-                    "icon": "SiReact",
-                    "level": 90
-                },
-                {
-                    "name": "Spring Boot",
-                    "icon": "SiSpringboot",
-                    "level": 80
-                }
-            ]
-        },
-        {
-            "name": "Databases",
-            "skills": [
-                {
-                    "name": "MongoDB",
-                    "icon": "SiMongodb",
-                    "level": 80
-                },
-                {
-                    "name": "MySQL",
-                    "icon": "SiMysql",
-                    "level": 70
-                }
-            ]
-        },
-        {
-            "name": "Tools",
-            "skills": [
-                {
-                    "name": "Git",
-                    "icon": "SiGit",
-                    "level": 85
-                },
-                {
-                    "name": "Figma",
-                    "icon": "SiFigma",
-                    "level": 80
-                },
-                {
-                    "name": "VS Code",
-                    "icon": "SiVisualstudiocode",
-                    "level": 95
-                }
-            ]
-        },
-        {
-            "name": "DevOps / Cloud",
-            "skills": [
-                {
-                    "name": "AWS",
-                    "icon": "SiAmazonaws",
-                    "level": 70
-                },
-                {
-                    "name": "Netlify",
-                    "icon": "SiNetlify",
-                    "level": 80
-                }
-            ]
-        }
-    ]
+  "categories": [
+    {
+      "name": "AI & Prompt Engineering",
+      "skills": [
+        "Reusable prompt templates",
+        "Image generation prompts",
+        "Video generation prompts",
+        "Prompt testing and refinement",
+        "AI-assisted content"
+      ]
+    },
+    {
+      "name": "Full-Stack Development",
+      "skills": [
+        "Java",
+        "JavaScript",
+        "React",
+        "Spring Boot",
+        "REST APIs"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "skills": [
+        "HTML",
+        "CSS",
+        "Tailwind CSS",
+        "Responsive web design"
+      ]
+    },
+    {
+      "name": "Data & Integrations",
+      "skills": [
+        "MongoDB",
+        "Third-party API integration",
+        "Webhook testing"
+      ]
+    },
+    {
+      "name": "Tools",
+      "skills": [
+        "Git",
+        "GitHub"
+      ]
+    }
+  ]
 }

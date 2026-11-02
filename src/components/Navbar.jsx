@@ -1,96 +1,80 @@
-// src/components/Navbar.jsx
-import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { motion } from 'framer-motion';
-import { SiReact } from 'react-icons/si';
-import profilePic from "../assets/profile_photo/pfp.png";
-
-import { HiMenu, HiX } from 'react-icons/hi';
+import React, { useEffect, useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { motion } from "framer-motion";
+import { HiArrowNarrowRight, HiMenu, HiX } from "react-icons/hi";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false);
     const location = useLocation();
-
-    const navItems = [
-        { name: 'Home', path: '/' },
-        { name: 'Projects', path: '/projects' },
-        { name: 'Prompts', path: '/prompts' },
-        { name: 'Contact', path: '/contact' },
+    const onHome = location.pathname === "/";
+    const links = [
+        { label: "Home", path: onHome ? "#home" : "/" },
+        { label: "About", path: onHome ? "#about" : "/#about" },
+        { label: "Skills", path: onHome ? "#skills" : "/#skills" },
+        { label: "Projects", path: onHome ? "#projects" : "/#projects" },
+        { label: "Prompts", path: "/prompts" },
     ];
 
+    useEffect(() => {
+        const handleScroll = () => setIsScrolled(window.scrollY > 20);
+        handleScroll();
+        window.addEventListener("scroll", handleScroll, { passive: true });
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
+    useEffect(() => setIsOpen(false), [location.pathname, location.hash]);
+
+    useEffect(() => {
+        if (location.pathname !== "/" || !location.hash) return undefined;
+        const targetId = decodeURIComponent(location.hash.slice(1));
+        const frame = window.requestAnimationFrame(() => {
+            const target = document.getElementById(targetId);
+            if (target) {
+                const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+                target.scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth", block: "start" });
+            }
+        });
+        return () => window.cancelAnimationFrame(frame);
+    }, [location.pathname, location.hash]);
+
     return (
-        <motion.nav
-            initial={{ y: -100 }}
-            animate={{ y: 0 }}
-            className="bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-700 sticky top-0 z-50"
+        <motion.header
+            className={"site-header" + (isScrolled ? " is-scrolled" : "")}
+            initial={{ y: -30, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.4 }}
         >
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-between items-center h-16">
-                    {/* Logo */}
-                    <Link to="/" className="flex items-center space-x-2">
-                        {location.pathname === '/' ? (
-                            <SiReact className="h-8 w-8 text-blue-500" />
-                        ) : (
-                            <img src={profilePic} alt="Profile" className="h-8 w-8 rounded-full object-cover" />
-                        )}
-                        <span className="font-bold text-xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                            Portfolio
-                        </span>
-                    </Link>
-
-                    {/* Desktop Navigation */}
-                    <div className="hidden md:flex items-center space-x-8">
-                        {navItems.map((item) => (
-                            <Link
-                                key={item.name}
-                                to={item.path}
-                                className={`px-3 py-2 rounded-lg font-medium transition-all duration-200 ${location.pathname === item.path
-                                    ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20'
-                                    : 'text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400'
-                                    }`}
-                            >
-                                {item.name}
-                            </Link>
-                        ))}
-                    </div>
-
-                    {/* Mobile menu button */}
-                    <button
-                        onClick={() => setIsOpen(!isOpen)}
-                        aria-label={isOpen ? 'Close navigation menu' : 'Open navigation menu'}
-                        aria-expanded={isOpen}
-                        aria-controls="mobile-navigation"
-                        className="md:hidden p-2 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800"
-                    >
-                        {isOpen ? <HiX size={24} /> : <HiMenu size={24} />}
-                    </button>
+            <nav className="nav-inner" aria-label="Main navigation">
+                <Link className="brand-mark" to="/" aria-label="Azad Kumar home">
+                    <span className="brand-symbol">A</span><span>AZAD<span className="brand-mark-accent">.DEV</span></span>
+                </Link>
+                <div className="desktop-nav-links">
+                    {links.map((link) => <Link key={link.label} to={link.path}>{link.label}</Link>)}
                 </div>
-
-                {/* Mobile Navigation */}
+                <Link className="nav-contact" to="/contact">Let’s talk <HiArrowNarrowRight aria-hidden="true" /></Link>
+                <button
+                    className="menu-toggle"
+                    type="button"
+                    onClick={() => setIsOpen((open) => !open)}
+                    aria-label={isOpen ? "Close navigation menu" : "Open navigation menu"}
+                    aria-expanded={isOpen}
+                    aria-controls="mobile-navigation"
+                >
+                    {isOpen ? <HiX aria-hidden="true" /> : <HiMenu aria-hidden="true" />}
+                </button>
                 {isOpen && (
-                    <motion.div
-                        id="mobile-navigation"
-                        initial={{ opacity: 0, scale: 0.95 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        className="md:hidden py-4 border-t border-slate-200 dark:border-slate-700"
-                    >
-                        {navItems.map((item) => (
-                            <Link
-                                key={item.name}
-                                to={item.path}
-                                onClick={() => setIsOpen(false)}
-                                className={`block px-4 py-3 rounded-lg font-medium transition-all duration-200 ${location.pathname === item.path
-                                    ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20'
-                                    : 'text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400'
-                                    }`}
-                            >
-                                {item.name}
+                    <div className="mobile-nav" id="mobile-navigation">
+                        {links.map((link, index) => (
+                            <Link key={link.label} to={link.path} onClick={() => setIsOpen(false)}>
+                                <span>{String(index + 1).padStart(2, "0")}</span>{link.label}
                             </Link>
                         ))}
-                    </motion.div>
+                        <Link to="/contact" onClick={() => setIsOpen(false)}><span>06</span>Contact</Link>
+                    </div>
                 )}
-            </div>
-        </motion.nav>
+            </nav>
+        </motion.header>
     );
 };
 

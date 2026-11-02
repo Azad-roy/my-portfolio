@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10263A"/>
+      <stop offset="1" stop-color="#17162E"/>
+    </linearGradient>
+    <linearGradient id="icon" x1="408" y1="164" x2="540" y2="302" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#73E9F4"/>
+      <stop offset="1" stop-color="#9581F4"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="520" rx="28" fill="url(#bg)"/>
+  <path d="M0 130H960M0 260H960M0 390H960M160 0V520M320 0V520M480 0V520M640 0V520M800 0V520" stroke="#B4DDF5" stroke-opacity=".08"/>
+  <circle cx="480" cy="244" r="132" stroke="#69DEEF" stroke-opacity=".17"/>
+  <circle cx="480" cy="244" r="97" stroke="#9380F4" stroke-opacity=".25"/>
+  <rect x="421" y="185" width="118" height="118" rx="34" fill="#3B83A8" fill-opacity=".24" stroke="url(#icon)" stroke-opacity=".7"/>
+  <path d="M456 221c4-5 10-7 15-3l10 9c4 4 4 9 1 13l-5 6c8 12 17 21 29 29l6-5c4-3 9-3 13 1l9 10c4 5 2 11-3 15-8 7-20 8-29 3-23-12-49-38-61-61-5-10-4-21 3-29Z" stroke="#92F0F6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M442 346h8v19h-8zm18-12h8v31h-8zm18-16h8v47h-8zm18 8h8v39h-8zm18-20h8v59h-8zm18 14h8v45h-8zm18-9h8v54h-8zm18 17h8v37h-8z" fill="#79E3F1" fill-opacity=".8"/>
+  <text x="480" y="434" fill="#A9DCE7" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="5" text-anchor="middle">AI CALLING AGENT</text>
+</svg>

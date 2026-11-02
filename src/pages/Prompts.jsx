@@ -54,7 +54,7 @@ const PromptsPage = () => {
     };
 
     return (
-        <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-slate-800 pt-8">
+        <div className="portfolio-page prompts-page min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-slate-800 pt-8">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
                 {/* Page Header */}
@@ -136,7 +136,7 @@ const PromptsPage = () => {
                                 </h3>
                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
                                     {prompt.results.map((result, idx) => (
-                                        <div className="aspect-[4/3] rounded-lg overflow-hidden bg-gradient-to-br from-blue-400/20 to-purple-400/20 dark:from-blue-500/10 dark:to-purple-500/10 mb-3 relative group">
+                                        <div key={result.id || result.title + idx} className="aspect-[4/3] rounded-lg overflow-hidden bg-gradient-to-br from-blue-400/20 to-purple-400/20 dark:from-blue-500/10 dark:to-purple-500/10 mb-3 relative group">
                                             {/* Actual Image */}
                                             {result.image && (
                                                 <img
@@ -328,7 +328,7 @@ const PromptsPage = () => {
                     transition={{ duration: 0.6, delay: 0.4 }}
                     className="mb-16"
                 >
-                    <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 md:p-10 text-white text-center">
+                    <div className="prompt-profile-cta rounded-2xl p-8 md:p-10 text-white text-center">
                         <h2 className="text-2xl md:text-3xl font-bold mb-4">
                             More Premium Prompts Available
                         </h2>
@@ -342,10 +342,10 @@ const PromptsPage = () => {
                             onClick={() => trackPromptClick("profile_page")}
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.98 }}
-                            className="inline-flex items-center px-8 py-4 bg-white text-blue-600 hover:bg-blue-50 font-semibold rounded-xl transition-all duration-200 shadow-lg hover:shadow-xl"
+                            className="button-primary"
                         >
                             Browse All {prompts.length} Prompts
-                            <HiArrowRight className="ml-2 w-5 h-5" />
+                            <HiArrowRight className="w-5 h-5" />
                         </motion.a>
                     </div>
                 </motion.div>

@@ -127,7 +127,7 @@ const PalinodeWorld = () => {
     }, []);
 
     return (
-        <article className="overflow-hidden bg-slate-950 text-slate-100" aria-labelledby="palinode-title">
+        <article className="portfolio-world overflow-hidden bg-slate-950 text-slate-100" aria-labelledby="palinode-title">
             <header className="relative isolate min-h-[calc(100vh-4rem)] overflow-hidden border-b border-white/10">
                 <div
                     className="absolute inset-0 opacity-[0.055]"

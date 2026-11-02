@@ -5,7 +5,9 @@ import { HiExternalLink, HiCode } from 'react-icons/hi';
 import { Link } from 'react-router-dom';
 
 const ProjectCard = ({ project, index }) => {
-    const isInternalProject = project.demo.startsWith('/');
+    const hasDemo = Boolean(project.demo);
+    const isInternalProject = hasDemo && project.demo.startsWith('/');
+    const hasGithub = Boolean(project.github && !project.github.includes('/username/'));
 
     return (
         <motion.div
@@ -60,15 +62,15 @@ const ProjectCard = ({ project, index }) => {
                 </div>
 
                 {/* Links */}
-                <div className="flex space-x-4">
-                    {isInternalProject ? (
+                <div className="flex flex-wrap items-center gap-3">
+                    {hasDemo && isInternalProject ? (
                         <Link
                             to={project.demo}
                             className="inline-flex items-center px-4 py-2 bg-slate-800 hover:bg-slate-900 text-white font-medium rounded-lg transition-all duration-200"
                         >
                             Explore Project
                         </Link>
-                    ) : (
+                    ) : hasDemo ? (
                         <a
                             href={project.demo}
                             target="_blank"
@@ -78,7 +80,13 @@ const ProjectCard = ({ project, index }) => {
                             <HiExternalLink className="mr-2" />
                             Live Demo
                         </a>
+                    ) : null}
+                    {hasGithub && (
+                        <a href={project.github} target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-4 py-2 border border-slate-300 dark:border-slate-600 text-slate-700 dark:text-slate-200 font-medium rounded-lg">
+                            <HiCode className="mr-2" /> Source
+                        </a>
                     )}
+                    {!hasDemo && !hasGithub && <span className="text-sm text-slate-500 dark:text-slate-400">Details available on request</span>}
                 </div>
             </div>
         </motion.div>

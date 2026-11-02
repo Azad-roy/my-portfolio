@@ -219,7 +219,7 @@ const ContactForm = () => {
                     disabled={isSubmitting}
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
-                    className="w-full bg-blue-600 hover:bg-blue-700 disabled:bg-slate-400 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-200 transform shadow-lg hover:shadow-xl"
+                    className="contact-submit w-full bg-blue-600 hover:bg-blue-700 disabled:bg-slate-400 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-200 transform shadow-lg hover:shadow-xl"
                 >
                     {isSubmitting ? 'Sending...' : 'Send Message'}
                 </motion.button>

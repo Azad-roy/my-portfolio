@@ -6,7 +6,7 @@ import { HiMail, HiPhone, HiLocationMarker } from 'react-icons/hi';
 
 const Contact = () => {
     return (
-        <div className="min-h-screen py-20 px-4 sm:px-6 lg:px-8">
+        <div className="portfolio-page contact-page min-h-screen py-20 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
@@ -41,7 +41,7 @@ const Contact = () => {
                                         Email
                                     </h3>
                                     <p className="text-slate-600 dark:text-slate-300">
-                                        omobizino@gmail.com
+                                        <a href="mailto:azadr1233@gmail.com">azadr1233@gmail.com</a>
                                     </p>
                                 </div>
                             </div>
@@ -55,8 +55,18 @@ const Contact = () => {
                                         Location
                                     </h3>
                                     <p className="text-slate-600 dark:text-slate-300">
-                                        INDIA
+                                        Patna, Bihar, India
                                     </p>
+                                </div>
+                            </div>
+
+                            <div className="flex items-start space-x-4">
+                                <div className="p-3 bg-emerald-100 dark:bg-emerald-900/30 rounded-xl">
+                                    <HiPhone className="w-6 h-6 text-emerald-600 dark:text-emerald-400" />
+                                </div>
+                                <div>
+                                    <h3 className="font-semibold text-slate-900 dark:text-white mb-1">Phone</h3>
+                                    <a className="text-slate-600 dark:text-slate-300" href="tel:+919155473093">+91 91554 73093</a>
                                 </div>
                             </div>
                         </div>

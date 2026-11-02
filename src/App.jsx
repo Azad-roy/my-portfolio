@@ -4,6 +4,7 @@ import { useEffect } from "react";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import CustomCursor from "./components/CustomCursor";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Prompts from "./pages/Prompts";
@@ -20,8 +21,9 @@ function App() {
   }, [location]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
+    <div className="dark portfolio-theme min-h-screen">
       <Navbar />
+      <CustomCursor />
 
       <main>
         <Routes>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17172F"/>
+      <stop offset="1" stop-color="#112135"/>
+    </linearGradient>
+    <linearGradient id="bubble" x1="592" y1="294" x2="744" y2="362" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8173E8"/>
+      <stop offset="1" stop-color="#A078D8"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="520" rx="28" fill="url(#bg)"/>
+  <path d="M0 130H960M0 260H960M0 390H960M160 0V520M320 0V520M480 0V520M640 0V520M800 0V520" stroke="#C4DDF5" stroke-opacity=".07"/>
+  <rect x="247" y="98" width="467" height="326" rx="22" fill="#0D1425" stroke="#B9C5E9" stroke-opacity=".22"/>
+  <rect x="265" y="116" width="42" height="290" rx="16" fill="#171E34" stroke="#B9C5E9" stroke-opacity=".14"/>
+  <circle cx="286" cy="151" r="10" fill="#61DCEB"/>
+  <circle cx="286" cy="190" r="10" fill="#A97BEA"/>
+  <circle cx="286" cy="229" r="10" fill="#E687B9"/>
+  <circle cx="286" cy="268" r="10" fill="#6FAEDB"/>
+  <rect x="325" y="117" width="370" height="47" fill="#121A2D"/>
+  <circle cx="350" cy="140" r="13" fill="#9779DD"/>
+  <text x="373" y="137" fill="#EEF0FC" font-family="Arial,sans-serif" font-size="12" font-weight="700">Project team</text>
+  <text x="373" y="151" fill="#65DBB8" font-family="Arial,sans-serif" font-size="9">online now</text>
+  <path d="M351 201h154a12 12 0 0 1 12 12v26a12 12 0 0 1-12 12H351a12 12 0 0 1-12-12v-26a12 12 0 0 1 12-12Z" fill="#202B42"/>
+  <text x="366" y="232" fill="#D4DCEC" font-family="Arial,sans-serif" font-size="12">The new build is ready.</text>
+  <path d="M585 267h116a12 12 0 0 1 12 12v26a12 12 0 0 1-12 12H585a12 12 0 0 1-12-12v-26a12 12 0 0 1 12-12Z" fill="url(#bubble)"/>
+  <text x="599" y="298" fill="#F7F3FF" font-family="Arial,sans-serif" font-size="12">Sharing it now</text>
+  <rect x="339" y="339" width="354" height="47" rx="9" fill="#121A2D" stroke="#C6CFF2" stroke-opacity=".13"/>
+  <rect x="351" y="351" width="28" height="23" rx="5" fill="#527EAC"/>
+  <text x="390" y="366" fill="#B8C4D9" font-family="Arial,sans-serif" font-size="11">media sharing · message controls</text>
+</svg>

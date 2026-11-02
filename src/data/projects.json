@@ -128,6 +128,47 @@
                 "Worldbuilding",
                 "React"
             ]
+        },
+        {
+            "id": 8,
+            "name": "AI Calling Agent",
+            "description": "Developed backend APIs and business logic for an AI-powered calling application. Stores call logs, user data, and conversation history in MongoDB; webhook integrations were tested during local development.",
+            "technologies": [
+                "Java",
+                "Spring Boot",
+                "MongoDB"
+            ],
+            "github": "",
+            "demo": "",
+            "thumbnail": "/assets/project-thumbnails/ai-calling-agent.svg",
+            "tags": [
+                "AI Application",
+                "Backend",
+                "Webhooks"
+            ],
+            "featured": true,
+            "art": "voice"
+        },
+        {
+            "id": 9,
+            "name": "Real-Time Messaging App",
+            "description": "Built a responsive messaging web application and installable Android APK. Added authentication and messaging APIs, media sharing, dual message deletion, and self-destructing messages.",
+            "technologies": [
+                "React",
+                "Spring Boot",
+                "MongoDB",
+                "Android APK"
+            ],
+            "github": "",
+            "demo": "",
+            "thumbnail": "/assets/project-thumbnails/real-time-messaging.svg",
+            "tags": [
+                "Web and Android",
+                "Messaging",
+                "Full Stack"
+            ],
+            "featured": true,
+            "art": "messaging"
         }
     ]
 }
