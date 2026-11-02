@@ -21,6 +21,8 @@ html {
     #080b14;
 }
 
+.portfolio-theme > main { position: relative; z-index: 1; }
+
 .portfolio-theme .portfolio-page {
   position: relative;
   z-index: 1;
@@ -31,7 +33,7 @@ html {
   background:
     radial-gradient(ellipse at 12% 0%, rgba(48, 74, 117, 0.19), transparent 38%),
     radial-gradient(ellipse at 90% 48%, rgba(74, 38, 124, 0.12), transparent 38%),
-    #080b14;
+    rgba(8, 11, 20, 0.82);
 }
 
 .portfolio-theme .portfolio-page h1 {
@@ -42,7 +44,7 @@ html {
 .portfolio-theme .portfolio-world {
   position: relative;
   z-index: 1;
-  background: #080b14;
+  background: rgba(8, 11, 20, 0.9);
 }
 
 .portfolio-theme .contact-submit {
@@ -86,9 +88,7 @@ html {
   overflow: clip;
   isolation: isolate;
   color: #edf2ff;
-  background:
-    radial-gradient(ellipse at 50% -15%, rgba(48, 74, 117, 0.3), transparent 46%),
-    #080b14;
+  background: transparent;
   font-family: "DM Sans", Inter, sans-serif;
 }
 
@@ -125,7 +125,7 @@ html {
 
 .three-d-background {
   position: fixed;
-  z-index: -1;
+  z-index: 0;
   inset: 0;
   pointer-events: none;
   opacity: 0.34;

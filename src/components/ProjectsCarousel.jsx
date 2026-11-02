@@ -58,6 +58,7 @@ const ProjectsCarousel = () => {
     const [active, setActive] = useState(0);
     const pointerStart = useRef(null);
     const count = projects.length;
+
     const move = (direction) => {
         if (count < 2) return;
         setActive((current) => (current + direction + count) % count);
@@ -74,9 +75,9 @@ const ProjectsCarousel = () => {
     };
 
     const handlePointerDown = (event) => {
-        if (event.target.closest("button, a")) return;
+        if (event.button !== 0 || !(event.target instanceof Element) || event.target.closest("button, a")) return;
         pointerStart.current = event.clientX;
-        try { event.currentTarget.setPointerCapture(event.pointerId); } catch (_) {}
+        try { event.currentTarget.setPointerCapture(event.pointerId); } catch (_) { }
     };
 
     const handlePointerUp = (event) => {
@@ -182,4 +183,3 @@ const ProjectsCarousel = () => {
 };
 
 export default ProjectsCarousel;
-

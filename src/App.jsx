@@ -1,6 +1,6 @@
 // src/App.jsx
 import { Routes, Route, useLocation } from "react-router-dom";
-import { useEffect } from "react";
+import { lazy, Suspense, useEffect } from "react";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -13,6 +13,8 @@ import PalinodeWorld from "./pages/PalinodeWorld";
 
 import { pageView } from "./analytics";
 
+const ThreeDBackground = lazy(() => import("./components/ThreeDBackground"));
+
 function App() {
   const location = useLocation();
 
@@ -22,6 +24,9 @@ function App() {
 
   return (
     <div className="dark portfolio-theme min-h-screen">
+      <Suspense fallback={null}>
+        <ThreeDBackground />
+      </Suspense>
       <Navbar />
       <CustomCursor />
 
